@@ -902,33 +902,14 @@ All cards must follow the same sequencing structures of all effects
 (see [**Sequencing**](https://www.vekn.net/rulebook/2-card-types#sequencing)).
 
 A ready vampire may generally perform one of two basic actions which do
-not require the play of action cards: bleed or hunt, whereas a ready
-ally may perform only one basic action which does not require the play
-of action cards: bleed.
+not require the play of action cards: **bleed** or **hunt**.\
+A ready ally may perform only one basic action which does not require the play
+of action cards: **bleed**.
 
 Instead of performing a basic action, a ready minion could play an
 action card to perform the action indicated on the card. Some action
 cards are enhanced versions of the basic bleed or hunt actions, while
 others are original types of actions.
-
-Ready minions can also use actions to bring different types of permanent
-resources into play. These three actions are very similar, although the
-cards they bring into play are not:
-
-
-
-> **Equipment:** such as computers, guns, and exotic artefacts. An
-> equipment card is brought into play with an equip action. Equipment
-> can also be moved from one minion to another by performing an action.\
-> \
-> **Retainers:** henchmen, attendants, or animals commanded into the
-> service of the minion. A retainer is brought into play with the
-> employ retainer action. Retainers cannot be moved from one minion to
-> another.\
-> \
-> **Allies:** non-vampire minions, such as mages, werewolves, or
-> ordinary mortals. An ally is brought into play with the recruit ally
-> action.
 
 A minion cannot perform an action with the same named action card more than once each turn, even if they unlock.
 A minion cannot perform each action via the same copy of a card in play (including
@@ -998,23 +979,87 @@ the blood bank.
 
 
 
+
+### **Action Card (or Card in Play)**
+*Several cards enable your minions to utilize different means and tools than those provided by the default actions.*
+
+- **Who can perform an action by default:** Any ready minion. A minion
+cannot perform an action with the same action card from hand or in play
+more than once each turn, even if they unlock.
+- **Cost:** As listed on the card.
+- **Default target:** As listed on the card.
+- **Default stealth:** Unless otherwise noted on the card, these actions
+are at 0 stealth.
+- **Effect:** If the action is successful, it resolves as indicated on
+the card. If the card describes a special version of a basic action,
+then all the rules that apply to the basic action apply, except as
+otherwise noted on the card.
+
+
+
+![](bin/media/image41.png)
+
+
+
 ![](bin/media/image33.png)
 
+### **Politics**
+
+*Politics and diplomacy are as critical to vampires as hunting and feeding. Like mortal society, Kindred society has its own laws, creeds,
+and customs.* 
+
+Politics come into play when a vampire performs a political action or when a blood hunt is called (see [**The Blood Hunt**](https://www.vekn.net/rulebook#the-blood-hunt)).
+
+**The Political Action**
+
+**Important:** The specific terms of the referendum (the choices to be
+made, if any, by the Methuselah who calls the referendum) are not chosen
+until the action itself is successful.
+
+
+- **Who can take a political action:** Any ready vampire. A vampire
+cannot perform more than one political action each turn.
+- **Cost:** As listed on the political action card.
+- **Default target:** None. Undirected action.
+- **Default stealth:** +1 stealth.
+- **Effect:** A political action is an action that is used to call a
+referendum. If the action is successful, the terms of the referendum are
+chosen and votes are cast and tallied to see if the referendum passes or
+fails
+(see [**Politics**](https://www.vekn.net/rulebook#politics)).
+
+
+
+![](bin/media/image37.png)
+
+
+
+### **PERMANENTS** 
+Ready minions can also use actions to bring different types of permanent
+resources into play. These three actions are very similar, although the
+cards they bring into play are not: **Equipment** **Retainer** and **Allies**
 
 
 ### **Equip**
+
+*Equipment utilizes such as computers, guns, and exotic artefacts. An equipment card is brought into play with an equip action.*
+
+Equipment cards are action cards that give minions special abilities. There is no limit to the number of
+equipment cards a minion can have.
 
 - **Who can equip:** Any ready minion.
 - **Cost:** As listed on the equipment card, when playing that card from
 your hand; or none, when equipping from another minion you control.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect when equipping from your hand:** Equipment cards are action
-cards that give minions special abilities. If the action to equip with
+- **Effect when equipping from your hand:** If the action to equip with
 an equipment card from your hand is successful, the equipment card is
-placed on the acting minion. There is no limit to the number of
-equipment cards a minion can have.
-- **Effect when equipping from another minion you control:** Equip with
+placed on the acting minion. 
+
+> **ADVANCED**
+> Equipment can also be moved from one minion to another by performing an action.
+> -  **Cost:** none
+> - **Effect when equipping from another minion you control:** Equip with
 an equipment card currently possessed by one of your other minions. More
 than one equipment card can be taken from a minion in a single action,
 but the equipment you wish to take must be announced as the action is
@@ -1036,17 +1081,18 @@ is.
 
 ### **Employ Retainer**
 
+*Retainers are henchmen, attendants, or animals commanded into the service of the minion.*\
+\
+A retainer is brought into play with the employ retainer action. Retainers cannot be moved from one minion to another. Retainers are action cards that give minions special
+abilities. There is no limit to the number of retainers a minion can have. Unlike equipment, a retainer cannot be transferred. When a retainer is brought into play, it receives blood counters from the blood
+bank to represent its life (listed on the retainer's card). When a retainer loses their last life counter, they are burned.
+
 - **Who can employ a retainer:** Any ready minion.
 - **Cost:** As listed on the retainer card.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect:** Retainers are action cards that give minions special
-abilities. If the action is successful, the retainer is placed on the
-acting minion. There is no limit to the number of retainers a minion can
-have. Unlike equipment, a retainer cannot be transferred. When a
-retainer is brought into play, it receives blood counters from the blood
-bank to represent its life (listed on the retainer's card). When a
-retainer loses their last life counter, they are burned.
+- **Effect:** If the action is successful, the retainer is placed on the
+acting minion. 
 
 
 ![](bin/media/image35.png)
@@ -1062,19 +1108,17 @@ retainer loses their last life counter, they are burned.
 
 
 ### **Recruit Ally**
+*Allies: non-vampire minions, such as mages, werewolves, or ordinary mortals.* \
+An ally is brought into play with the recruit ally action. Allies are action cards that become minions in their own right, capable of acting and blocking independently of the minion that recruits them.
+When an ally is brought into play, they receive blood counters from the blood bank to represent their life (listed on the ally's card). When an ally loses their last
+life counter, they are burned.
 
 - **Who can recruit an ally:** Any ready minion.
 - **Cost:** As listed on the ally card.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect:** Allies are action cards that become minions in their own
-right, capable of acting and blocking independently of the minion that
-recruits them. If the action is successful, the ally is placed in your
-ready region, but they cannot act this turn. When an ally is brought
-into play, they receive blood counters from the blood bank to represent
-their life (listed on the ally's card). When an ally loses their last
-life counter, they are burned.
-
+- **Effect:** If the action is successful, the ally is placed in your
+ready region, but they cannot act this turn. 
 
 
 ![](bin/media/image36.png)
@@ -1088,26 +1132,31 @@ life counter, they are burned.
 > basic version of the ally.
 
 
-### **Political Action**
 
-- **Who can take a political action:** Any ready vampire. A vampire
-cannot perform more than one political action each turn.
-- **Cost:** As listed on the political action card.
-- **Default target:** None. Undirected action.
-- **Default stealth:** +1 stealth.
-- **Effect:** A political action is an action that is used to call a
-referendum. If the action is successful, the terms of the referendum are
-chosen and votes are cast and tallied to see if the referendum passes or
-fails
-(see [**Politics**](https://www.vekn.net/rulebook#politics)).
+### **Torpor**
 
+*When a vampire cannot mend their wounds, they enter into a deep sleep
+known as torpor. A vampire in torpor is particularly weak and vulnerable
+to attacks from others of their kind. A vampire in torpor may be burned
+by a vampire through the act of diablerie
+(see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
 
+If a vampire cannot mend their wounds, they go into torpor. Vampires in
+torpor are placed in an area to one side of the uncontrolled region. Any
+retainers, equipment, and other cards on the vampire stay with the
+vampire when they go into torpor.
 
-![](bin/media/image37.png)
+A vampire in torpor can perform no action except the "leave torpor"
+action and cannot block or play reaction cards. They can play action
+modifiers during their actions.
 
+A vampire in torpor is still considered controlled but is not ready.
+They still unlock at the start of the unlock phase.
 
+A vampire in torpor cannot cast any votes or ballots (they must
+abstain).
 
-### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
+### **Leave Torpor**
 
 - **Who can leave torpor:** A vampire in torpor.
 - **Default Cost:** 2 blood.
@@ -1155,6 +1204,42 @@ rescued from torpor is no longer wounded.
 ![](bin/media/image39.png)
 
 
+### **Diablerie**
+
+*By committing diablerie, the diablerist drains the victim of their
+blood and grows stronger, and may take whatever equipment the victim
+had. Vampiric society condemns this act, however, so the risk may
+outweigh the reward.*
+
+Diablerie is the act of sending another vampire to final death by
+drinking their blood. Only ready vampires can commit diablerie. The
+vampire committing diablerie is referred to as the diablerist. Diablerie
+is resolved as follows:
+
+**1.** All blood on the victim is moved to the diablerist. Blood in
+excess of their capacity drains off as normal.
+
+**2.** The diablerist may take any equipment on the victim.
+
+**3.** The victim is burned. Any cards and counters on them are also
+burned.
+
+> **ADVANCED RULES**\
+> \
+> 4. If the victim was older (had a higher capacity) than the
+> diablerist, the diablerist can be given a Discipline: their
+> controller may go through their library, ash heap, and hand to get a
+> master Discipline card to put on the diablerist and then shuffle
+> their library or draw back up to their hand size as necessary. If the
+> Discipline card increases the diablerist's capacity, the diablerie
+> does not give 1 blood to fill that new capacity.\
+> \
+> 5. If the victim was Red List, the diablerist may receive trophies
+> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
+> The steps of diablerie are treated as a single unit. No effects can
+> be used to interrupt the diablerie; effects may be played either
+> before or after, as appropriate.
+
 
 ### **Diablerise a Vampire in Torpor**
 
@@ -1179,32 +1264,25 @@ enter combat as normal.
 
 ![](bin/media/image40.png)
 
+**The Blood Hunt**
 
+*Vampiric society condemns the act of diablerie. The penalty for
+committing this act is death, and the method of justice is a blood hunt,
+in which the diablerist is hunted down and destroyed by others of their
+kind. In practice, however, this brand of justice is not always meted
+out fairly, depending on the connections that the diablerist has.*
 
-### **Action Card (or Card in Play)**
-
-- **Who can perform an action by default:** Any ready minion. A minion
-cannot perform an action with the same action card from hand or in play
-more than once each turn, even if they unlock.
-- **Cost:** As listed on the card.
-- **Default target:** As listed on the card.
-- **Default stealth:** Unless otherwise noted on the card, these actions
-are at 0 stealth.
-- **Effect:** If the action is successful, it resolves as indicated on
-the card. If the card describes a special version of a basic action,
-then all the rules that apply to the basic action apply, except as
-otherwise noted on the card.
-
-
-
-![](bin/media/image41.png)
-
-
+When a vampire commits diablerie, a referendum is automatically and
+immediately conducted to determine if a blood hunt will be called on the
+diablerist. If the referendum passes, a blood hunt is called, and the
+diablerist is burned. This referendum is not an action, so it cannot be
+blocked, and action modifiers and reaction cards cannot be played.
+Otherwise, this referendum is handled just like any other.
 
 > **ADVANCED RULES**\
-> \
+> 
 > **Become Anarch**
-> - Who can become Anarch: Any ready untitled non-Anarch vampire.
+> - Who can become Anarch: Any ready non-titled non-Anarch vampire.
 > - Cost: 2 blood, or 1 blood if the controller controls at least 1 other ready Anarch.
 > - Default target: None. Undirected action.
 > - Default stealth: +1 stealth.
@@ -1423,20 +1501,6 @@ succeeds; the cost is not paid if the action is blocked. The costs of
 action modifiers and reaction cards are always paid when the cards are
 played, regardless of the success of the action.
 
-
-
-### **Politics**
-
-Politics and diplomacy are as critical to vampires as hunting and
-feeding. Like mortal society, Kindred society has its own laws, creeds,
-and customs. Politics come into play when a vampire performs a political
-action or when a blood hunt is called (see [**The Blood Hunt**](https://www.vekn.net/rulebook#the-blood-hunt)).
-
-**The Political Action**
-
-**Important:** The specific terms of the referendum (the choices to be
-made, if any, by the Methuselah who calls the referendum) are not chosen
-until the action itself is successful.
 
 **The Referendum**
 
@@ -1905,87 +1969,6 @@ damage, leaving her with 4 blood.*
 > strike done with first strike will still not resolve before a combat
 > ends effect (which always resolves first), and a dodge still works
 > against the effects of a strike done with first strike.
-
-
-### **Torpor**
-
-*When a vampire cannot mend their wounds, they enter into a deep sleep
-known as torpor. A vampire in torpor is particularly weak and vulnerable
-to attacks from others of their kind. A vampire in torpor may be burned
-by a vampire through the act of diablerie
-(see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
-
-If a vampire cannot mend their wounds, they go into torpor. Vampires in
-torpor are placed in an area to one side of the uncontrolled region. Any
-retainers, equipment, and other cards on the vampire stay with the
-vampire when they go into torpor.
-
-A vampire in torpor can perform no action except the "leave torpor"
-action and cannot block or play reaction cards. They can play action
-modifiers during their actions.
-
-A vampire in torpor is still considered controlled but is not ready.
-They still unlock at the start of the unlock phase.
-
-A vampire in torpor cannot cast any votes or ballots (they must
-abstain).
-
-
-
-### **Diablerie**
-
-*By committing diablerie, the diablerist drains the victim of their
-blood and grows stronger, and may take whatever equipment the victim
-had. Vampiric society condemns this act, however, so the risk may
-outweigh the reward.*
-
-Diablerie is the act of sending another vampire to final death by
-drinking their blood. Only ready vampires can commit diablerie. The
-vampire committing diablerie is referred to as the diablerist. Diablerie
-is resolved as follows:
-
-**1.** All blood on the victim is moved to the diablerist. Blood in
-excess of their capacity drains off as normal.
-
-**2.** The diablerist may take any equipment on the victim.
-
-**3.** The victim is burned. Any cards and counters on them are also
-burned.
-
-> **ADVANCED RULES**\
-> \
-> 4. If the victim was older (had a higher capacity) than the
-> diablerist, the diablerist can be given a Discipline: their
-> controller may go through their library, ash heap, and hand to get a
-> master Discipline card to put on the diablerist and then shuffle
-> their library or draw back up to their hand size as necessary. If the
-> Discipline card increases the diablerist's capacity, the diablerie
-> does not give 1 blood to fill that new capacity.\
-> \
-> 5. If the victim was Red List, the diablerist may receive trophies
-> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
-> The steps of diablerie are treated as a single unit. No effects can
-> be used to interrupt the diablerie; effects may be played either
-> before or after, as appropriate.
-
-
-
-**The Blood Hunt**
-
-*Vampiric society condemns the act of diablerie. The penalty for
-committing this act is death, and the method of justice is a blood hunt,
-in which the diablerist is hunted down and destroyed by others of their
-kind. In practice, however, this brand of justice is not always meted
-out fairly, depending on the connections that the diablerist has.*
-
-When a vampire commits diablerie, a referendum is automatically and
-immediately conducted to determine if a blood hunt will be called on the
-diablerist. If the referendum passes, a blood hunt is called, and the
-diablerist is burned. This referendum is not an action, so it cannot be
-blocked, and action modifiers and reaction cards cannot be played.
-Otherwise, this referendum is handled just like any other.
-
-
 
 
 
