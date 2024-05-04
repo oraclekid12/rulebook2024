@@ -990,8 +990,7 @@ otherwise noted on the card.
 ![](bin/media/image41.png)
 
 
-#### **Politics**
-
+### **Politics**
 *Politics and diplomacy are as critical to vampires as hunting and feeding. Like mortal society, Kindred society has its own laws, creeds,
 and customs.* 
 
@@ -1145,7 +1144,7 @@ They still unlock at the start of the unlock phase.
 A vampire in torpor cannot cast any votes or ballots.
 
 
-### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
+#### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
 
 - **Who can leave torpor:** A vampire in torpor.
 - **Default Cost:** 2 blood.
@@ -1166,7 +1165,7 @@ vampire leaving torpor is no longer wounded.
 
 
 ![](bin/media/image40.png)
-### **Rescue a Vampire from Torpor**
+#### **Rescue a Vampire from Torpor**
 
 - **Who can rescue a vampire from torpor:** Any ready vampire.
 - **Default Cost:** 2 blood, which can be paid by the acting vampire or
@@ -1229,7 +1228,7 @@ burned.
 > before or after, as appropriate.
 
 
-### **Diablerise a Vampire in Torpor**
+#### **Diablerise a Vampire in Torpor**
 
 - **Who can diablerise:** Any ready vampire.
 - **Default cost:** None.
@@ -1328,6 +1327,26 @@ Note that all modifications made to a minion's stealth or intercept
 remain in effect for the duration of the action. Increased stealth and
 intercept return to normal after the action is resolved.
 
+#### **SEQUENCING**
+
+> The action has been announced and:
+> 
+> A. There is no current block attempt
+> 1. the sequencing rule applies as normal
+> 2. in addition to any effect that can be used during an action (playing an action modifier or reaction card, using effects of cards in play etc.), a Methuselah who can block (see Who May Attempt to Block) can declare a block attempt, switching to "B. There is an ongoing block attempt"
+> 3. if a Methuselah passes, that Methuselah cannot declare any block attempt until the end of the action unless the target of the action changes.
+> 4. once every Methuselah has passed, switch to "C. Blocks have been declined by all Methuselahs"
+> 
+> B. There is an ongoing block attempt
+> 1. the sequencing rule applies as normal
+> 2. the target of the action cannot be changed
+> 3. the Methuselah who has declared the current block attempt may use effects that force the currently blocking to attempt to block (no other minion can attempt to block until this block attempt is resolved)
+> 4. once every Methuselah has passed, the block attempt is resolved: if it is successful, the action is unsuccessful and blocked. Otherwise, switch back to "A. There is no current block attempt"
+> 
+> C. Blocks have been declined by all Methuselahs
+> 1. the sequencing rule applies as normal
+> 2. if the target of the action is changed, switch to "A. There is no current block attempt"
+> 3. once every Methuselah has passed, the action is successful and resolves
 
 ### DETAILED COURSE
 
@@ -1424,50 +1443,26 @@ resolution. This is considered the final step of the action.
 > If an effect **ends the action** after block resoltion, that makes the action end unsuccessfully.
 > Actions that are ended are over: action modifiers and reactions cannot be played anymore.
 
-#### **DETAILED COURSE OF SEQUENCING**
 
-> The action has been announced and:
-> 
-> A. There is no current block attempt
-> 1. the sequencing rule applies as normal
-> 2. in addition to any effect that can be used during an action (playing an action modifier or reaction card, using effects of cards in play etc.), a Methuselah who can block (see Who May Attempt to Block) can declare a block attempt, switching to "B. There is an ongoing block attempt"
-> 3. if a Methuselah passes, that Methuselah cannot declare any block attempt until the end of the action unless the target of the action changes.
-> 4. once every Methuselah has passed, switch to "C. Blocks have been declined by all Methuselahs"
-> 
-> B. There is an ongoing block attempt
-> 1. the sequencing rule applies as normal
-> 2. the target of the action cannot be changed
-> 3. the Methuselah who has declared the current block attempt may use effects that force the currently blocking to attempt to block (no other minion can attempt to block until this block attempt is resolved)
-> 4. once every Methuselah has passed, the block attempt is resolved: if it is successful, the action is unsuccessful and blocked. Otherwise, switch back to "A. There is no current block attempt"
-> 
-> C. Blocks have been declined by all Methuselahs
-> 1. the sequencing rule applies as normal
-> 2. if the target of the action is changed, switch to "A. There is no current block attempt"
-> 3. once every Methuselah has passed, the action is successful and resolves
+#### **REFERENDUM**
 
+If a **political action** is successful, its cost is paid, and the referendum is called. The referendum consists of three steps:
 
-
-#### **The Referendum**\
-
-If a **political action** is successful, its cost is paid, and the referendum is called. The referendum consists of three steps:\
-\
-**1. Choose the terms**, if any, of the referendum.\
-\
-**2. Polling:**\
-\
-**2.a Before votes and ballots are cast**\
-Cards that are usable "during the polling step" but "before votes and ballots are cast" are used at this time.\
-**2.b polling step**\
- All Methuselahs may then cast any votes and ballots they have (see below) at this time, in any order. They call out their votes and ballots freely, and there is no obligation to cast votes or ballots. 
- Once a vote or ballot has been cast, however, it cannot be changed. The polling stage is completed only when all Methuselahs are finished casting votes and ballots. 
- \
- If you need a time limit, the Methuselahs can agree to wait 15 seconds after the last vote cast to close the polling stage.\
- \
- **3. Resolve the Referendum:**\
- If there are more votes for the referendum than against, it passes, and the effects take place. 
- Otherwise, the referendum fails and has no effect. Tied referendums fail.
-
-
+> **1. Choose the terms**, if any, of the referendum.\
+> \
+> **2. Polling:**\
+> \
+> **2.a Before votes and ballots are cast**\
+> Cards that are usable "during the polling step" but "before votes and ballots are cast" are used at this time.\
+> **2.b polling step**\
+> All Methuselahs may then cast any votes and ballots they have (see below) at this time, in any order. They call out their votes and ballots freely, and there is no obligation to cast votes or ballots. 
+> Once a vote or ballot has been cast, however, it cannot be changed. The polling stage is completed only when all Methuselahs are finished casting votes and ballots. 
+> \
+> If you need a time limit, the Methuselahs can agree to wait 15 seconds after the last vote cast to close the polling stage.\
+> \
+> **3. Resolve the Referendum:**\
+> If there are more votes for the referendum than against, it passes, and the effects take place. 
+> Otherwise, the referendum fails and has no effect. Tied referendums fail.
 
 
 **Gaining Votes**
