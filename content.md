@@ -862,7 +862,7 @@ your other minions from performing actions, however).
 
 
 
-**Types of Actions**
+### Types of Actions**
 
 > **DIRECTED AND UNDIRECTED ACTIONS**\
 > \
@@ -907,7 +907,7 @@ unlock.
 
 
 
-### **Bleed**
+#### **Bleed**
 
 *Performing a bleed action represents the efforts of your minion to
 undermine the power and pool of the target Methuselah. You might picture
@@ -945,7 +945,7 @@ minion gets the Edge, taking it from the Methuselah who has it, if any.
 
 
 
-### **Hunt**
+#### **Hunt**
 
 *Hunting is a vampire's means of satisfying their hunger for blood.*
 
@@ -969,7 +969,7 @@ the blood bank.
 
 
 
-### **Action Card (or Card in Play)**
+#### **Action Card (or Card in Play)**
 *cards enable your minions to utilize different means and tools than those provided by the default actions.*
 
 Instead of performing a basic action, a ready minion could play an
@@ -997,7 +997,7 @@ otherwise noted on the card.
 
 ![](bin/media/image33.png)
 
-### **Politics**
+#### **Politics**
 
 *Politics and diplomacy are as critical to vampires as hunting and feeding. Like mortal society, Kindred society has its own laws, creeds,
 and customs.* 
@@ -1034,7 +1034,7 @@ resources into play. These three actions are very similar, although the
 cards they bring into play are not: **Equipment** **Retainer** and **Allies**
 
 
-### **Equip**
+#### **Equip**
 
 *Equipment utilizes such as computers, guns, and exotic artefacts. An equipment card is brought into play with an equip action.*
 
@@ -1073,7 +1073,7 @@ is.
 > version of the equipment.
 
 
-### **Employ Retainer**
+#### **Employ Retainer**
 
 *Retainers are henchmen, attendants, or animals commanded into the service of the minion.*\
 \
@@ -1101,7 +1101,7 @@ acting minion.
 
 
 
-### **Recruit Ally**
+#### **Recruit Ally**
 *Allies: non-vampire minions, such as mages, werewolves, or ordinary mortals.* \
 An ally is brought into play with the recruit ally action. Allies are action cards that become minions in their own right, capable of acting and blocking independently of the minion that recruits them.
 When an ally is brought into play, they receive blood counters from the blood bank to represent their life (listed on the ally's card). When an ally loses their last
@@ -1150,7 +1150,7 @@ They still unlock at the start of the unlock phase.
 A vampire in torpor cannot cast any votes or ballots (they must
 abstain).
 
-### **Leave Torpor**
+#### **Leave Torpor**
 
 - **Who can leave torpor:** A vampire in torpor.
 - **Default Cost:** 2 blood.
@@ -1171,7 +1171,7 @@ vampire leaving torpor is no longer wounded.
 
 
 
-### **Rescue a Vampire from Torpor**
+#### **Rescue a Vampire from Torpor**
 
 - **Who can rescue a vampire from torpor:** Any ready vampire.
 - **Default Cost:** 2 blood, which can be paid by the acting vampire or
@@ -1235,7 +1235,7 @@ burned.
 > before or after, as appropriate.
 
 
-### **Diablerise a Vampire in Torpor**
+#### **Diablerise a Vampire in Torpor**
 
 - **Who can diablerise:** Any ready vampire.
 - **Default cost:** None.
