@@ -807,10 +807,10 @@ If you have the Edge, you may gain 1 pool from the blood bank.
 
 
 ## **2. MASTER PHASE**
+*A master phase action represents your personal activity during the turn as 
+ancient Methuselah.*
 
-You receive master phase actions during your master phase. A master
-phase action represents your personal activity during the turn as a
-Methuselah.
+You receive master phase actions during your master phase. 
 
 By default, you receive only one master phase action, but some cards may
 change this amount. You may use a master phase action to play a master
@@ -837,30 +837,21 @@ used during this phase are lost.
 
 
 ## **3. MINION PHASE**
+*During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs.* 
 
-Most of the activity in the game occurs in the minion phase. During your
-minion phase, you may have your minions perform actions. Only ready
-unlocked minions can perform actions, and taking an action locks the
-acting minion. Ready unlocked minions, controlled by other Methuselahs,
-may attempt to block your action, and blocking locks the blocking minion
-(see [**Resolve Any Block Attempts**](https://www.vekn.net/rulebook#resolve-any-block-attempts)).
-An action is successful only if it is not blocked. Each action must be
-resolved (successful or blocked) before another action can be performed.
+Most of the activity in the game occurs in the minion phase. 
 
+Only **ready unlocked minions** can perform actions. Taking an action **locks** the
+acting minion.\ 
 If a minion manages to unlock (due to a card or an effect) during this
 phase, it is possible for them to perform another action.
 
-Some actions are mandatory. Any of those actions must be performed
-before any nonmandatory actions. If you have two or more minions with
-mandatory actions, they may be done in the order you choose. A minion
-required to take a mandatory action cannot perform any other action. For
-example, a ready vampire with no blood must hunt as a mandatory action.
+> Some actions are **mandatory**. Any of those actions must be performed before any nonmandatory actions.\
+> A minion required to take a mandatory action cannot perform any other action.\
+> If you have two or more minions with mandatory actions, they may be done in the order you choose.
 
-If a minion has two or more different mandatory actions or one mandatory action they cannot take, then
-they are "stuck" and cannot perform any action (this does not prevent
-your other minions from performing actions, however).
-
-
+For example, a ready vampire with no blood must hunt as a mandatory action. If a minion has two or more different mandatory actions or one mandatory action they cannot take, then
+they are "stuck" and cannot perform any action (this does not prevent your other minions from performing actions, however).
 
 ### Types of Actions**
 
@@ -874,6 +865,19 @@ your other minions from performing actions, however).
 > a (D) symbol as a reminder that the action is typically directed. If
 > not it is considered undirected.
 
+The procedure for resolving an action is described in the following sections. Note that action modifiers and reaction cards can be played at
+any time in this process as appropriate, subject to the restrictions on adding stealth and intercept listed below. The same minion cannot play
+the same action modifier or reaction card more than once during each action (see [**Minion Cards**](https://www.vekn.net/rulebook/2-card-types#minion-cards)).
+All cards must follow the same sequencing structures of all effects (see [**Sequencing**](https://www.vekn.net/rulebook/2-card-types#sequencing)).
+
+> **Other Methuselahs** may attempt to **block** your actions.\
+> This can be done by ready unlocked minions, controlled by other Methuselahs.
+> may attempt to block your action, and blocking locks the blocking minion
+(see [**Resolve Any Block Attempts**](https://www.vekn.net/rulebook#resolve-any-block-attempts)).
+An action is successful only if it is not blocked. Each action must be
+resolved (successful or blocked) before another action can be performed.
+
+
 > **STEALTH AND INTERCEPT**\
 > \
 > The success of an action is determined by two things:\
@@ -885,15 +889,7 @@ your other minions from performing actions, however).
 > counter an acting minion's attempts to avoid them.
 
 
-Any ready unlocked minion you control can perform an action. The
-procedure for resolving an action is described in the following
-sections. Note that action modifiers and reaction cards can be played at
-any time in this process as appropriate, subject to the restrictions on
-adding stealth and intercept listed below. The same minion cannot play
-the same action modifier or reaction card more than once during each
-action (see [**Minion Cards**](https://www.vekn.net/rulebook/2-card-types#minion-cards)).
-All cards must follow the same sequencing structures of all effects
-(see [**Sequencing**](https://www.vekn.net/rulebook/2-card-types#sequencing)).
+
 
 A ready vampire may generally perform one of two basic actions which do
 not require the play of action cards: **bleed** or **hunt**.\
@@ -915,10 +911,11 @@ bleeding as paying bribes, changing bank records, spreading rumors, or
 the like.*
 
 A bleed can be made with an action card or through the basic bleed
-action. During a bleed action, an action modifier card cannot be played to increase the bleed 
-if the bleed amount is already being increased by another action modifier card (unless any
-of them does not count against that limit). This rule is reminded on
-those cards by the "(limited)" card text.
+action. 
+
+> By default, all vampires have a **bleed of 1**.\
+> During a bleed action, an action modifier card or other effects can increase the bleed (**+ x bleed**).\
+> Only one action modifier card can be played to increase the bleed. This rule is reminded on those cards by the "(limited)" card text.
 
 - **Who can bleed:** Any ready minion. A minion cannot perform more than
 one bleed action each turn, even if they unlock.
@@ -928,11 +925,8 @@ effects may allow or force you to bleed a Methuselah other than your
 prey. You can never bleed yourself.
 - **Default stealth:** 0 stealth.
 - **Effect:** If the action succeeds, the target Methuselah burns an
-amount of pool equal to the bleed amount. By default, all vampires have
-a bleed amount of 1. If the action succeeds and the bleed amount is 1 or
-more, then the bleed is successful and the controller of the acting
-minion gets the Edge, taking it from the Methuselah who has it, if any.
-
+amount of pool equal to the total bleed amount. If the bleed amount is 1 or
+more, then the bleed is successful and the acting Methuselah gets the Edge, (taking it from the Methuselah who has it).
 
 
  ![](bin/media/image31.png)
@@ -949,23 +943,21 @@ minion gets the Edge, taking it from the Methuselah who has it, if any.
 
 *Hunting is a vampire's means of satisfying their hunger for blood.*
 
-A hunt can be made with an action card or through the basic hunt action.
+A hunt can be made with an action card or through the basic hunt action. If a successful hunt causes the vampire's blood to exceed their
+blood capacity, then (as always) the excess is immediately returned to the blood bank.\
+\
+Note that hunting is a **mandatory action** for a **vampire with no blood** who is ready and unlocked. 
 
-- **Who can hunt:** Any ready vampire. Note that hunting is a mandatory
-action for a ready unlocked vampire with no blood. During your minion
-phase, none of your minions can perform any non-mandatory actions if any
-of your ready unlocked vampires have hunt actions yet to perform. If you
-have two or more vampires with mandatory hunt actions, they may be done
-in the order you choose.
+> By default, all vampires have a **hunt of 1**.\
+> During a hunt action, an action modifier card or other effects can be used to increase the hunt (**+ x hunt**).
+
+
+- **Who can hunt:** Any ready vampire. 
 - **Default cost:** None.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
 - **Effect:** The acting vampire gains an amount of blood counters from
-the blood bank equal to the hunt amount. By default, all vampires have a
-hunt amount of 1. If this causes the vampire's blood to exceed their
-blood capacity, then (as always) the excess is immediately returned to
-the blood bank.
-
+the blood bank equal to the hunt amount.
 
 
 
@@ -1298,12 +1290,18 @@ their ready unlocked minions or if the action does not target another
 Methuselah, or targets a card controlled by the acting Methuselah, then
 the minions of the prey and predator may try to block.
 
-- If a **block attempt is unsuccessful**, another attempt can be made.
+> If a **block attempt is unsuccessful**, another attempt can be made.
+
+**3.** **Action Resolution** 
+- If no attempt is successful then the **action is successful**
+  - Referendum
+  - Combat (when Enter Combat)
+  - successful with no effect
+
 - If a **block attempt is successful**, then the blocking minion locks
 and enters combat with the acting minion.
 
-**3.** If no attempt is successful and no more attempts are made, then
-the **action is successful**, and the cost of the action is paid.
+> 
 
 **Action modifiers** and **reaction cards** can be played at any time
 before resolution during an action, with the acting Methuselah getting
