@@ -1471,29 +1471,23 @@ for 2 pool.*
 
 
 **3. Resolve the Action**
+ 
+*There are three ways how an action can be resolved: 
+- **successful**: with a referendum as part of action resolution if a political action has been played.
+- **successful with no effect**
+- **unsuccessful** An action is unsuccessful when it is **blocked**: ***Substep Combat***
+
+After all possible substeps are handeled, there is a chance to play cards which are **only usable after action resolution**. This is considered the final step of the action.
+
+#### **3.1 Successful Action**
 
 If the action is successful (all block attempts were unsuccessful), then
 the cost of the action is paid and the effects of the successful action
-take place.
-
-If the action is blocked, then any card played to perform the action is
-burned and the block is resolved with these two simultaneous
-consequences: the blocking minion is locked and enters combat with the
-acting minion (see [**Combat**](https://www.vekn.net/rulebook#combat)). 
-If an effect ends the action before the block resolution or one of these
-two consequences (such as entering combat), neither consequence occurs.
-
-The effects of the action do not take place when the action is blocked.
-
-Note that the action's cost, if any, is only paid if the action
-succeeds; the cost is not paid if the action is blocked. The costs of
-action modifiers and reaction cards are always paid when the cards are
-played, regardless of the success of the action.
-
+take place. 
 
 > **The Referendum**\
 > If a **political action** is successful, its cost is paid, and the
-> referendum is called. The referendum consists of three steps:\
+> referendum is called as a substep of action resolution. The referendum consists of three steps:\
 > **1. Choose the terms**, if any, of the referendum.\
 > **2. Polling:**\
 > **2.a Before votes and ballots are cast**\
@@ -1511,50 +1505,41 @@ played, regardless of the success of the action.
 > If there are more votes for the
 > referendum than against, it passes, and the effects take place.
 > Otherwise, the referendum fails and has no effect. Tied referendums
-> fail.
-
-
-
-**Gaining Votes**
-
-Methuselahs have no inherent votes or ballots. Votes and ballots must be
-gained, and there are a variety of ways to do so. Once gained, a vote or
-a ballot need not be cast right away, if at all. Each vote or ballot
-cast is cast either "for" or "against" the referendum, and a Methuselah
-may cast some of their votes and ballots in favour and some against, as
-they choose, with the restriction that all of the votes and ballots from
-any given vampire or other source must be cast in agreement as a group.
-Once cast, a vote or a ballot cannot be changed. Methuselahs can gain
-votes and ballots in the following ways:
-
-- **Political Action Cards:** Each Methuselah may gain 1 vote by using a
-political action card. These cards say "1 vote" to indicate this.
-If a political action card was used to call the referendum, that card
-provides 1 vote for the acting vampire's controller. Other political
-action cards used for votes are simply burned without regard to the text
-on the cards. Each Methuselah can gain no more than 1 vote from
-political action cards.
-- **Titled Vampires:** For each ready titled vampire a Methuselah
-controls, they gain extra votes. The number of votes gained depends on
-the title.
-
-A Methuselah gains:
-
-**1 vote** for each ready primogen
-
-**2 votes** for each ready prince or baron
-
-**3 votes** for each ready justicar
-
-**4 votes** for each ready Inner Circle member
-
-- **The Edge:** The Methuselah who has the Edge can burn it (return it,
-uncontrolled, to the central area) to gain 1 vote.
-- **Other Cards:** Action modifiers, reaction cards, cards in play, etc.
-that grant more votes or ballots can all be used subject to the normal
-rules of playing cards. Only the acting minion can play action modifiers
-and only ready unlocked minions controlled by Methuselahs other than the
-acting minion's controller can play reaction cards.
+> fail.\
+> \
+> **Gaining Votes**\
+> \
+> Methuselahs have no inherent votes or ballots. Votes and ballots must be
+> gained, and there are a variety of ways to do so. Once gained, a vote or
+> a ballot need not be cast right away, if at all. Each vote or ballot
+> cast is cast either "for" or "against" the referendum, and a Methuselah
+> may cast some of their votes and ballots in favour and some against, as
+> they choose, with the restriction that all of the votes and ballots from
+> any given vampire or other source must be cast in agreement as a group.
+> Once cast, a vote or a ballot cannot be changed. Methuselahs can gain
+> votes and ballots in the following ways:\
+> \
+> - **Political Action Cards:** Each Methuselah may gain 1 vote by using a
+> political action card. These cards say "1 vote" to indicate this.
+> If a political action card was used to call the referendum, that card
+> provides 1 vote for the acting vampire's controller. Other political
+> action cards used for votes are simply burned without regard to the text
+> on the cards. Each Methuselah can gain no more than 1 vote from
+> political action cards.
+> - **Titled Vampires:** For each ready titled vampire a Methuselah
+> controls, they gain extra votes. The number of votes gained depends on
+> the title.
+> A Methuselah gains:
+> - **1 vote** for each ready primogen
+> - **2 votes** for each ready prince or baron
+> - **3 votes** for each ready justicar
+> - **4 votes** for each ready Inner Circle member
+> - **The Edge:** The Methuselah who has the Edge can burn it (return it, uncontrolled, to the central area) to gain 1 vote.
+> - **Other Cards:** Action modifiers, reaction cards, cards in play, etc.
+> that grant more votes or ballots can all be used subject to the normal
+> rules of playing cards. Only the acting minion can play action modifiers
+> and only ready unlocked minions controlled by Methuselahs other than the
+> acting minion's controller can play reaction cards.
 
 > **ADVANCED RULES**\
 > \
@@ -1562,12 +1547,37 @@ A minion may have a special ability granting **additional** votes or ballots wit
 > Other minions may have a title worth votes or ballots (as listed on card text) without
 > holding one of the titles listed above (see [**Other Vampire Sects**](https://www.vekn.net/rulebook/7-legacy-sets#other-vampire-sects)).
 
-### **Combat**
+#### 3.2 **Successful Action with no Effect**
 
-Combat results when a minion blocks the action of a ready minion. Also,
-some cards may cause combat. Whatever caused the combat, it is important
-to remember that only ready minions can participate in combat and that
-your minions cannot enter combat with other minions you control.
+If the action is successful (all block attempts were unsuccessful), but the action cannot take place, it has no effect. A reason might be that a bleed got reduced to 0 or if the cost of the action cannot be
+paid any more.
+
+
+#### 3.3 Unsuccessful Action / Successful Block
+If the action is blocked, then any card played to perform the action is
+burned and the block is resolved with these two simultaneous
+consequences: the blocking minion is locked and enters combat with the
+acting minion (see [**Combat**](https://www.vekn.net/rulebook#combat)). 
+If an effect ends the action before the block resolution or one of these
+two consequences (such as entering combat), neither consequence occurs.
+
+The effects of the action do not take place when the action is blocked.
+
+Note that the action's cost, if any, is only paid if the action
+succeeds; the cost is not paid if the action is blocked. The costs of
+action modifiers and reaction cards are always paid when the cards are
+played, regardless of the success of the action.
+
+
+**Combat**
+
+Combat results when a minion blocks the action of a ready minion and is part of action resolution. 
+
+> Some cards may cause combat, e.g. Deep Song.
+
+Whatever caused the combat, it is important to remember that:
+- only ready minions can participate in combat
+- your minions cannot enter combat with other minions you control.
 
 Being locked or unlocked does not matter for combat. Locked minions
 fight just the same as unlocked minions.
