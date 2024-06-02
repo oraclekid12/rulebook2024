@@ -548,6 +548,19 @@ cards you own are returned to you. If you are ousted before the end of
 the game, any cards that you own that other Methuselahs control remain
 in play until burned as normal.
 
+### **Unique Cards**
+*Some of the cards in the game represent unique resources, such as specific locations, equipment, or people. All crypt cards represent unique minions. All other cards will be
+identified as **"unique"** in their card text. Some titles are unique, too. For example, there can be only one prince or baron of a particular city.*
+
+Only one copy of a unique card or title can be in play at a time. If another Methuselah puts a copy of a unique card or title into play, they will be **contested**. This continues until all but one are yielded. Contests are resolved during each Methuselah's Unlock Phase by either paying to cost to continue contest or yielding. If all other contestants have yielded, then the contest ends and the cards or titles become available in the next unlock phase of the remaining Methuselah. Only ready vampires can contest titles. They are forced to yield, if they have no blood to pay. Vampires in torpor must yield. 
+
+> Contested cards will be out of play. A contested title will make vampires lose all benefits the title provides but they remain in play.
+
+- **Contesting a card**: The cost is 1 pool. A yielded card is burned. Any cards or counters stacked on the yielded card are also burned.
+- **Contesting a title**: The cost is 1 blood. The vampire losing the contest will have no title and loses the benefits of the title for the remainder of the game.
+
+(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
+
 ### **Drawing Cards**
 Whenever you play a card from your hand, you draw another from your
 library to replace it (unless card text says otherwise). If your library
@@ -652,14 +665,18 @@ again gets the impulse back.
 
 ### **IMPORTANT TERMS IN THE GAME**
 
-**Locking and Unlocking:** During play, you will turn cards sideways 90º
-to lock them, indicating that the cards have been used for some
-particular purpose or effect. Unlocking a card restores it to its
-original position, indicating that the card is reset and will be able to
-be locked again later. Only unlocked minions can perform actions or
-block the actions of other minions.
+**Locking and Unlocking:**\
+During play, you will turn cards sideways 90º to lock them, indicating that the cards have been used for some
+particular purpose or effect. Unlocking a card restores it to its original position, indicating that the card is reset and will be able to
+be locked again later. Only unlocked minions can perform actions or block the actions of other minions.
 
-**Control:** Vampires put into play by a Methuselah are controlled by
+**Stealth and Intercept**:\
+The success of an action is determined by two things:
+* **Stealth** represents the measures the acting minion is taking to conduct their business while not been detected by their enemies.
+* **Intercept** represents the blocking minion's efforts to detect and counter an acting minion's attempts to avoid them.
+
+**Control:**\
+Vampires put into play by a Methuselah are controlled by
 that Methuselah.
 * A master card in play is controlled by the Methuselah who played it,
   even if it is played on a card controlled by another Methuselah.
@@ -670,7 +687,8 @@ that Methuselah.
 Control can change through game effects and this is clearly noted when
 using those effects.
 
-**Burn:** When a card is burned, it is placed into its owner's ash heap
+**Burn:**\
+When a card is burned, it is placed into its owner's ash heap
 (discard pile). The ash heap can be examined by any Methuselah at any
 time. When a counter is burned, it is returned to the blood bank.
 Sometimes, an instruction may say to remove a card from the game. While
@@ -679,13 +697,65 @@ are removed from the game cannot be retrieved or affected in any way.
 When a card is burned or removed from the game, any counters or other
 cards on it are burned.
 
-**Unique:** Only one copy of a unique card can be in play at a time. If
-another Methuselah puts a copy of the card into play, the copies will be
-contested (and out of play) until all but one is yielded
-(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
-Vampires are unique, by default.
 
-**Limited:** Some cumulative effects are forbidden by the rules. For
+**Torpor**\
+When a vampire cannot mend their wounds, they enter into a deep sleep
+known as torpor. A vampire in torpor is particularly weak and vulnerable
+to attacks from others of their kind. A vampire in torpor may be burned
+by a vampire through the act of diablerie
+(see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).
+
+Vampires in torpor are placed in an area to one side of the uncontrolled region. Any
+retainers, equipment, and other cards on the vampire stay with the
+vampire when they go into torpor.
+
+A vampire in torpor can perform no action except the "leave torpor"
+action and cannot block or play reaction cards. They can play action
+modifiers during their actions.
+
+A vampire in torpor is still considered controlled but is not ready.
+They still unlock at the start of the unlock phase.
+
+A vampire in torpor cannot cast any votes or ballots.
+
+#### **Diablerie**
+
+*By committing diablerie, the diablerist drains the victim of their
+blood and grows stronger, and may take whatever equipment the victim
+had. Vampiric society condemns this act, however, so the risk may
+outweigh the reward.*
+
+Diablerie is the act of sending another vampire to final death by
+drinking their blood. Only ready vampires can commit diablerie. The
+vampire committing diablerie is referred to as the diablerist. Diablerie
+is resolved as follows:
+
+**1.** All blood on the victim is moved to the diablerist. Blood in
+excess of their capacity drains off as normal.
+
+**2.** The diablerist may take any equipment on the victim.
+
+**3.** The victim is burned. Any cards and counters on them are also
+burned.
+
+> **ADVANCED RULES**\
+> \
+> 4. If the victim was older (had a higher capacity) than the
+> diablerist, the diablerist can be given a Discipline: their
+> controller may go through their library, ash heap, and hand to get a
+> master Discipline card to put on the diablerist and then shuffle
+> their library or draw back up to their hand size as necessary. If the
+> Discipline card increases the diablerist's capacity, the diablerie
+> does not give 1 blood to fill that new capacity.\
+> \
+> 5. If the victim was Red List, the diablerist may receive trophies
+> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
+> The steps of diablerie are treated as a single unit. No effects can
+> be used to interrupt the diablerie; effects may be played either
+> before or after, as appropriate.
+
+**Limited:**\
+Some cumulative effects are forbidden by the rules. For
 instance, during a bleed action, an action modifier card cannot be played 
 to increase the bleed if the bleed amount is already being increased 
 by another action modifier card (unless any of them does not
@@ -759,72 +829,37 @@ In this instance, effects which take place before your unlock phase, are handele
 
 ## **1. UNLOCK PHASE**
 
-At the beginning of your unlock phase, you must unlock all of your cards. Any cards or effects
-that require or allow you to do something during your unlock phase take
+At the beginning of your unlock phase, you must unlock all of your cards.\
+\
+Any cards or effects that require or allow you to do something during your unlock phase take
 effect after you have unlocked your cards. You may choose the order in
-which these effects take place. Along with effects generated by cards,
-there are other effects that are resolved during the unlock phase:
+which these effects take place.\
+\
+Along with effects generated by cards, there are other effects that are resolved during the unlock phase:
 
-- If you have the **Edge**, you may gain 1 pool from the blood bank.\
+- If you have the **Edge**, you may gain 1 pool from the blood bank.
 - If a **card you control is contested**, you may decide to continue the 
-contest.\
+contest or yield.
 - If a **title of a vampire you control is contested**, you may decide to 
-continue the contest.
+continue the contest or yield.
+
+> If all other cards contesting your unique card have been yielded, then the card is unlocked and turned face up, ending the contest.
+
+
+> **REMINDER**\
+> **Contesting a card**: The cost is 1 pool. A yielded card is burned. Any cards or counters stacked on the yielded card are also burned.\
+> **Contesting a title**: The cost is 1 blood. The vampire losing the contest will have no title and loses the benefits of the title for the remainder of the game.\
+> \
+> Only ready vampires can contest titles. Vampires in torpor must yield.
+
 
 > **ADVANCED RULES**\
-> \
-> **Contested Cards**\
-> \
-> Some of the cards in the game represent unique resources, such as
-> specific locations, equipment, or people. These cards will be
-> identified as "unique" in their card text. In addition, all crypt
-> cards represent unique minions. If more than one unique card with the
-> same name is brought into play, that means control of the card is
-> being contested. For the duration of the contest, all of the
-> contested cards are turned face down and are out of play. If another
-> unique card with the same name is brought into play, it is
-> immediately contested and turned face down as well.\
-> \
-> The cost to contest a card is 1 pool, which you pay during each of
-> your unlock phases. Instead of paying the cost to contest the card,
-> you may choose to yield the card. A yielded card is burned. Any cards
-> or counters stacked on the yielded card are also burned. If all other
-> cards contesting your unique card are yielded, then the card is
-> unlocked and turned face up during your next unlock phase, ending the
-> contest.\
-> \
-> **Contested Titles**\
-> \
-> Some titles are unique. For example, there can be only one prince or
-> baron of a particular city (see [**Vampiric Sects**](https://www.vekn.net/rulebook/6-vampire-sects)).
-> If more than one vampire in play claims the same unique title, then the
-> title is contested. While the title is being contested, the vampires
-> involved in the contest are treated as if they have no title, but
-> they remain controlled and may act and block as normal.\
-> \
-> The **cost to contest a title is 1 blood**, which is paid by the vampire
-> during each of their unlock phases. Instead of paying the cost to
-> contest the title, the vampire may choose to yield the title (or may
-> be forced to yield, if they have no blood to pay). Only ready
-> vampires can contest titles. Vampires in torpor must yield during the
-> unlock phase.\
-> \
-> If all other vampires contesting a title with your vampire have
-> yielded the contest, then your vampire acquires the title during your
-> next unlock phase, ending the contest.\
-> \
-> The vampire yielding the title will now have no title and loses the
-> benefits of the title for the remainder of the game.
->
-> **ADVANCED RULES**\
-> \
 > Some cards have a burn option icon.\
 > \
-> This icon means that a Methuselah who does not control a minion who
-> meets the requirements of this card or is not a legal target, may discard it during ANY
+> This icon means that a Methuselah who does not control a minion who meets the requirements of this card or is not a legal target, may discard it during ANY
 > Methuselah's unlock phase and replace it.\
 > \
-> Each Methuselah is limited to one such discard each unlock phase.\
+> Each Methuselah is limited to one such discard each unlock phase. They may use it during other Methuselah's unlock phases.
 
 
 ## **2. MASTER PHASE**
@@ -856,14 +891,20 @@ used during this phase are lost.
 
 
 ## **3. MINION PHASE**
-*During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs.* 
+*Most of the activity in the game occurs in the minion phase. During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs. 
+As your minions actions are a limited resource, you should consider your strategy carefully.\
+\
+Actions can be used for several purposes like attacking other Methuselahs or their resources. There are several ways to achieve your goal: 
+attack your prey directly or use political power and negotiate. Minions can also use actions to bring different types of permanent resources into play:* 
+- *Equipment: such as computers, guns, and exotic artefacts.*
+- *Retainers: henchmen, attendants, or animals commanded into the service of the minion.*
+- *Allies: non-vampire minions, such as mages, werewolves, or ordinary mortals.*
 
-Most of the activity in the game occurs in the minion phase. 
+Only **ready unlocked minions** can perform actions. Taking an action **locks** the acting minion.\
+If a minion manages to unlock (due to a card or an effect) during this phase, it is possible for them to perform another action.\
 
-Only **ready unlocked minions** can perform actions. Taking an action **locks** the
-acting minion.\ 
-If a minion manages to unlock (due to a card or an effect) during this
-phase, it is possible for them to perform another action.
+Most actions are provided by action cards. However, there are two basic actions which do not require the play of action cards a vampire can perform: **bleed** or **hunt**\
+A ready ally may perform only one basic action which does not require the play of action cards: **bleed**.\
 
 > Some actions are **mandatory**. Any of those actions must be performed before any nonmandatory actions.\
 > A minion required to take a mandatory action cannot perform any other action.\
@@ -871,56 +912,17 @@ phase, it is possible for them to perform another action.
 
 For example, a ready vampire with no blood must hunt as a mandatory action. If a minion has two or more different mandatory actions or one mandatory action they cannot take, then
 they are "stuck" and cannot perform any action (this does not prevent your other minions from performing actions, however).\
-\
-Any ready unlocked minion you control can perform an action. The
-procedure for resolving an action is described in the following
-sections. A ready vampire may generally perform one of two basic actions which do
-not require the play of action cards: \
-**bleed** or **hunt**\
-A ready ally may perform only one basic action which does not require the play
-of action cards: **bleed**.\
 
-Ready minions can also use actions to bring different types of permanent
-resources into play. These three actions are very similar, although the
-cards they bring into play are not:
+**Other Methuselahs** may attempt to **block** your actions. The procedure for resolving an action is described in the following sections. 
 
-> **Equipment:** such as computers, guns, and exotic artefacts. An
-> equipment card is brought into play with an equip action. Equipment
-> can also be moved from one minion to another by performing an action.\
-> 
-> **Retainers:** henchmen, attendants, or animals commanded into the
-> service of the minion. A retainer is brought into play with the
-> employ retainer action. Retainers cannot be moved from one minion to
-> another.\
-> 
-> **Allies:** non-vampire minions, such as mages, werewolves, or
-> ordinary mortals. An ally is brought into play with the recruit ally
-> action.
-
-A minion cannot perform an action with the same named action card more than once each turn, 
-even if they unlock. A minion cannot perform each action via the same copy of a card in play 
-(including from the minion's own card text) more than once each turn, even if they
-unlock.
-
-**Other Methuselahs** may attempt to **block** your actions.\
-This can be done by ready unlocked minions, controlled by other Methuselahs. They may attempt to block your action, and blocking locks the blocking minion (see [**Resolve Any Block Attempts**](https://www.vekn.net/rulebook#resolve-any-block-attempts)).\
-
-> An action is successful only if it is not blocked. Each action must be
-> resolved (successful or blocked) before another action can be performed.
-
-> **STEALTH AND INTERCEPT**\
-> \
-> The success of an action is determined by two things:\
-> \
-> **Stealth** represents the measures the acting minion is taking to
-> conduct their business while not been detected by their enemies.\
-> \
-> **Intercept** represents the blocking minion's efforts to detect and
-> counter an acting minion's attempts to avoid them.
+> **REMINDER:**\
+> A minion cannot perform an action with the same named action card more than once each turn\
+> A minion cannot perform each action via the same copy of a card in play (including from the minion's own card text) more than once each turn\
+> A minion cannot bleed more than once each turn\
+> A minion cannot perform more than one political action each turn.
 
 
-
-**Types of Actions**
+### **Types of Actions**
 
 > **DIRECTED AND UNDIRECTED ACTIONS**\
 > \
@@ -932,16 +934,10 @@ This can be done by ready unlocked minions, controlled by other Methuselahs. The
 > a (D) symbol as a reminder that the action is typically directed. If
 > not it is considered undirected.
 
-Note that action modifiers and reaction cards can be played at
-any time in this process as appropriate, subject to the restrictions on
-adding stealth and intercept listed below. The same minion cannot play
-the same action modifier or reaction card more than once during each
-action (see [**Minion Cards**](https://www.vekn.net/rulebook/2-card-types#minion-cards)).
-All cards must follow the same sequencing structures of all effects
-(see [**Sequencing**](https://www.vekn.net/rulebook/2-card-types#sequencing)).
 
 
-### **Bleed**
+
+#### **Bleed**
 
 *Performing a bleed action represents the efforts of your minion to
 undermine the power and pool of the target Methuselah. You might picture
@@ -973,7 +969,7 @@ more, then the bleed is successful and the acting Methuselah gets the Edge, (tak
 
 
 
-### **Hunt**
+#### **Hunt**
 
 *Hunting is a vampire's means of satisfying their hunger for blood.*
 
@@ -996,7 +992,7 @@ the blood bank equal to the hunt amount.
 ![](bin/media/image33.png)
 
 
-### **Action Card (or Card in Play)**
+#### **Action Card (or Card in Play)**
 
 Instead of performing a basic action, a ready minion could play an
 action card to perform the action indicated on the card. Some action
@@ -1018,7 +1014,7 @@ otherwise noted on the card.
 ![](bin/media/image41.png)
 
 
-### **Politics**
+#### **Politics**
 *Politics and diplomacy are as critical to vampires as hunting and feeding. Like mortal society, Kindred society has its own laws, creeds,
 and customs.* 
 
@@ -1048,13 +1044,13 @@ fails
 
 
 
-### **Permanents** 
+#### **Permanents** 
 Ready minions can also use actions to bring different types of permanent
 resources into play. These three actions are very similar, although the
 cards they bring into play are not: **Equipment** **Retainer** and **Allies**
 
 
-#### **Equip**
+##### **Equip**
 
 *Equipment utilizes such as computers, guns, and exotic artefacts. An equipment card is brought into play with an equip action.*
 
@@ -1093,7 +1089,7 @@ is.
 > version of the equipment.
 
 
-#### **Employ Retainer**
+##### **Employ Retainer**
 
 *Retainers are henchmen, attendants, or animals commanded into the service of the minion.*\
 \
@@ -1121,7 +1117,7 @@ acting minion.
 
 
 
-#### **Recruit Ally**
+##### **Recruit Ally**
 *Allies: non-vampire minions, such as mages, werewolves, or ordinary mortals.* \
 \
 An ally is brought into play with the recruit ally action. Allies are action cards that become minions in their own right, capable of acting and blocking independently of the minion that recruits them.
@@ -1149,29 +1145,6 @@ ready region, but they cannot act this turn.
 
 
 
-### **Torpor**
-
-*When a vampire cannot mend their wounds, they enter into a deep sleep
-known as torpor. A vampire in torpor is particularly weak and vulnerable
-to attacks from others of their kind. A vampire in torpor may be burned
-by a vampire through the act of diablerie
-(see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
-
-Vampires in
-torpor are placed in an area to one side of the uncontrolled region. Any
-retainers, equipment, and other cards on the vampire stay with the
-vampire when they go into torpor.
-
-A vampire in torpor can perform no action except the "leave torpor"
-action and cannot block or play reaction cards. They can play action
-modifiers during their actions.
-
-A vampire in torpor is still considered controlled but is not ready.
-They still unlock at the start of the unlock phase.
-
-A vampire in torpor cannot cast any votes or ballots.
-
-
 #### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
 
 - **Who can leave torpor:** A vampire in torpor.
@@ -1193,7 +1166,7 @@ vampire leaving torpor is no longer wounded.
 
 
 ![](bin/media/image40.png)
-#### **Rescue a Vampire from Torpor**
+##### **Rescue a Vampire from Torpor**
 
 - **Who can rescue a vampire from torpor:** Any ready vampire.
 - **Default Cost:** 2 blood, which can be paid by the acting vampire or
@@ -1219,44 +1192,8 @@ rescued from torpor is no longer wounded.
 
 ![](bin/media/image39.png)
 
-### **Diablerie**
 
-*By committing diablerie, the diablerist drains the victim of their
-blood and grows stronger, and may take whatever equipment the victim
-had. Vampiric society condemns this act, however, so the risk may
-outweigh the reward.*
-
-Diablerie is the act of sending another vampire to final death by
-drinking their blood. Only ready vampires can commit diablerie. The
-vampire committing diablerie is referred to as the diablerist. Diablerie
-is resolved as follows:
-
-**1.** All blood on the victim is moved to the diablerist. Blood in
-excess of their capacity drains off as normal.
-
-**2.** The diablerist may take any equipment on the victim.
-
-**3.** The victim is burned. Any cards and counters on them are also
-burned.
-
-> **ADVANCED RULES**\
-> \
-> 4. If the victim was older (had a higher capacity) than the
-> diablerist, the diablerist can be given a Discipline: their
-> controller may go through their library, ash heap, and hand to get a
-> master Discipline card to put on the diablerist and then shuffle
-> their library or draw back up to their hand size as necessary. If the
-> Discipline card increases the diablerist's capacity, the diablerie
-> does not give 1 blood to fill that new capacity.\
-> \
-> 5. If the victim was Red List, the diablerist may receive trophies
-> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
-> The steps of diablerie are treated as a single unit. No effects can
-> be used to interrupt the diablerie; effects may be played either
-> before or after, as appropriate.
-
-
-#### **Diablerise a Vampire in Torpor**
+##### **Diablerise a Vampire in Torpor**
 
 - **Who can diablerise:** Any ready vampire.
 - **Default cost:** None.
@@ -1519,7 +1456,7 @@ Each Methuselah may gain 1 vote by using a political action card. These cards sa
 
 **The Edge:** The Methuselah who has the Edge can burn it to gain 1 vote (return it, uncontrolled, to the central area).\
 \
-**Other Cards and effects:** that grant more votes or ballots can all be used subject to the normal rules of playing cards.
+**Other Cards and effects:** that grant more votes or ballots (**+ x votes**) can all be used subject to the normal rules of playing cards .
 
 > REMINDER
 > Only the acting minion can play action modifiers and only ready unlocked minions controlled by Methuselahs other than the
