@@ -548,19 +548,6 @@ cards you own are returned to you. If you are ousted before the end of
 the game, any cards that you own that other Methuselahs control remain
 in play until burned as normal.
 
-### **Unique Cards**
-*Some of the cards in the game represent unique resources, such as specific locations, equipment, or people. All crypt cards represent unique minions. All other cards will be
-identified as **"unique"** in their card text. Some titles are unique, too. For example, there can be only one prince or baron of a particular city.*
-
-Only one copy of a unique card or title can be in play at a time. If another Methuselah puts a copy of a unique card or title into play, they will be **contested**. This continues until all but one are yielded. Contests are resolved during each Methuselah's Unlock Phase by either paying to cost to continue contest or yielding. If all other contestants have yielded, then the contest ends and the cards or titles become available in the next unlock phase of the remaining Methuselah. Only ready vampires can contest titles. They are forced to yield, if they have no blood to pay. Vampires in torpor must yield. 
-
-> Contested cards will be out of play. A contested title will make vampires lose all benefits the title provides but they remain in play.
-
-- **Contesting a card**: The cost is 1 pool. A yielded card is burned. Any cards or counters stacked on the yielded card are also burned.
-- **Contesting a title**: The cost is 1 blood. The vampire losing the contest will have no title and loses the benefits of the title for the remainder of the game.
-
-(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
-
 ### **Drawing Cards**
 Whenever you play a card from your hand, you draw another from your
 library to replace it (unless card text says otherwise). If your library
@@ -662,6 +649,21 @@ during an undirected action, the prey first and the predator second.
 Then every other Methuselah in clockwise order gets the impulse until everyone passes.
 Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
 again gets the impulse back.
+
+### **Contest**
+
+**Unique**: Some of the cards in the game represent unique resources, such as specific locations, equipment, or people. All crypt cards represent unique minions. All other cards will be
+identified as **"unique"** in their card text. Some titles are unique, too. For example, there can be only one ruler (prince or baron) of a particular city. 
+
+**Contest Rules**\
+Only one copy of a unique card or title can be in play at a time. If another Methuselah puts a copy of a unique card or title into play, they will be **contested**. This continues until all but one are yielded. Contests are resolved during each Methuselah's Unlock Phase by either paying to cost to continue contest or yielding. If all other contestants have yielded, then the contest ends and the cards or titles become available in the next unlock phase of the remaining Methuselah. Only ready vampires can contest titles. They are forced to yield, if they have no blood to pay. Vampires in torpor must yield. 
+
+> Contested cards will be out of play. A contested title will make vampires lose all benefits the title provides but they remain in play.
+
+- **Contesting a card**: The cost is 1 pool. A yielded card is burned. Any cards or counters stacked on the yielded card are also burned.
+- **Contesting a title**: The cost is 1 blood. The vampire losing the contest will have no title and loses the benefits of the title for the remainder of the game.
+
+(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
 
 ### **IMPORTANT TERMS IN THE GAME**
 
