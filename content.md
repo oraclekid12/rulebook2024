@@ -638,17 +638,18 @@ A minion cannot play the **same action modifier** card more than once during a s
 action (even if using a different Discipline level). 
 
 ### Sequencing
-If two or more Methuselahs want to play a card or effect, the acting
-Methuselah plays first. At every stage, the acting Methuselah always
-has the opportunity called **impulse** to play the next card or effect. So after playing
-one effect, they may play another and another. Once they are
-finished, the impulse passes to the next Methuselah in the following order: 
-during combat or an action directed at a single Methuselah, the defending Methuselah first; 
-during an action directed at a set of Methuselas, those Methuselahs in clockwise order; 
-during an undirected action, the prey first and the predator second. 
-Then every other Methuselah in clockwise order gets the impulse until everyone passes.
-Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
-again gets the impulse back.
+If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first.
+
+> At every stage, the acting Methuselah always has the opportunity called **impulse** to play the next card or effect.
+
+So after playing one effect, they may play another and another. Once they are finished, the impulse passes to the next Methuselahs in the following order: 
+- during a directed action at a single Methuselah or in combat, the defending Methuselah first;
+- during an action targeting a set of Methuselas, those Methuselahs in clockwise order;
+- during an undirected action, the prey first and the predator second.
+
+Then every other Methuselah in clockwise order gets the impulse. After every Methuselah has passed, the impulse goes back to the acting Methuselah.\
+
+> If at any point any Methuselah uses a card or effect, the acting Methuselah again gets the impulse back.
 
 
 ### **Contest**
@@ -1375,7 +1376,7 @@ paid until the action succeeds.)*
 
 #### **2. Resolve Any Block Attempts**
 
-A minion can attempt to block as many times as they wish as long as another minion is not already blocking. 
+***A Methuselah can attempt to block with as many minions as they wish as long as another minion is not already blocking.***
 If one attempt to block fails, another can be made as often as the blocking Methuselah wishes. 
 Once a Methuselah decides not to make any further attempts to block, that decision is final.
 If the target of the action is changed (e.g. a bleed action is redirected), this will reopen block attempts, following the normal rules.
