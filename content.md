@@ -638,18 +638,24 @@ A minion cannot play the **same action modifier** card more than once during a s
 action (even if using a different Discipline level). 
 
 ### Sequencing
-If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first.
+**impulse**: the opportunity to play **A** card or effect.
 
-> At every stage, the acting Methuselah always has the opportunity called **impulse** to play the next card or effect.
-
-So after playing one effect, they may play another and another. Once they are finished, the impulse passes to the next Methuselahs in the following order: 
+**Sequencing**
+If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first. At every stage, the acting Methuselah always has the **impulse** to play the next card or effect. So after playing one effect, ~~they~~ **the acting methuselah** may play another and another.**
+\
+Once they are finished, the impulse passes to the next Methuselahs in the following order: 
 - during a directed action at a single Methuselah or in combat, the defending Methuselah first;
 - during an action targeting a set of Methuselas, those Methuselahs in clockwise order;
 - during an undirected action, the prey first and the predator second.
 
-Then every other Methuselah in clockwise order gets the impulse. After every Methuselah has passed, the impulse goes back to the acting Methuselah.\
+Then every other Methuselah gets the impulse, in a clockwise order. **After every Methuselah has passed, the impulse goes back to the acting Methuselah**.\
 
 > If at any point any Methuselah uses a card or effect, the acting Methuselah again gets the impulse back.
+
+**block attempt**: A Methuselah may declare that they attempt to block the current action with their minions. More than one minion may be used to attempt to block. 
+However, only one minion may attempt to block at the same time.\
+**decline to block**: If a Methuselah cannot or does not want to block the current action, they decline to block by passing the opportunity to block to the next Methuselah in sequencing order. 
+A declination to block is a final decision. 
 
 
 ### **Contest**
