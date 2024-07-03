@@ -617,14 +617,18 @@ Optional cost reducers can be used when the card is played (in order to play the
 
 ### **Targeting of Cards**
 
-If a card is played on another card, or targets another card, the target
-card must be in play (that is, controlled). Vampires in the torpor
-region are eligible targets by default, but vampires in the uncontrolled
-region and contested cards are not. 
+If a card targets (chooses, selects, is played on, etc.) some target, then the card can only be played if an appropriate target is available. This is also true for
+political actions which specify a target as part of the referendum. If a card is played on another card, or targets another card, the target card must be in play
+(that is, controlled). Vampires in the torpor region are eligible targets by default, but vampires in the uncontrolled region and contested cards are not. 
 
-**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
-eligible targets are defined in their card texts. 
-Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
+**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more 
+targets, and the specific eligible targets are defined in their card texts. 
+\
+Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire
+cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly:
+they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these
+counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they
+have, and moves as much blood as possible if there is 1 or 0 blood counters.
 
 ### Non-Repeat Rules
 **Actions**
@@ -1085,15 +1089,17 @@ your hand; or none, when equipping from another minion you control.
 an equipment card from your hand is successful, the equipment card is
 placed on the acting minion. 
 
-> **ADVANCED**
-> Equipment can also be moved from one minion to another by performing an action.
-> -  **Cost:** none
-> - **Effect when equipping from another minion you control:** Equip with
+Equipment can also be moved from one minion to another by performing an action.
+- **Cost:** none
+- **Effect when equipping from another minion you control:** Equip with
 an equipment card currently possessed by one of your other minions. More
 than one equipment card can be taken from a minion in a single action,
 but the equipment you wish to take must be announced as the action is
-announced. If the action is unsuccessful, the equipment remains where it
-is.
+announced. If the action is unsuccessful, the equipment remains where it is.
+
+> **ADVANCED RULES**\
+> Some equipment cards count as a location once in play. These cards are treated as an equipment while in your hand, library or ash heap. When the cards are played, they
+> are treated as both equipment and location when played (eg. for cost-related effects), and just a location while in play. 
 
 
 
@@ -1323,37 +1329,16 @@ Note that all modifications made to a minion's stealth or intercept
 remain in effect for the duration of the action. Increased stealth and
 intercept return to normal after the action is resolved.
 
-#### **SEQUENCING**
-
-> The action has been announced and:
-> 
-> A. There is no current block attempt
-> 1. the sequencing rule applies as normal
-> 2. in addition to any effect that can be used during an action (playing an action modifier or reaction card, using effects of cards in play etc.), a Methuselah who can block (see Who May Attempt to Block) can declare a block attempt, switching to "B. There is an ongoing block attempt"
-> 3. if a Methuselah passes, that Methuselah cannot declare any block attempt until the end of the action unless the target of the action changes.
-> 4. once every Methuselah has passed, switch to "C. Blocks have been declined by all Methuselahs"
-> 
-> B. There is an ongoing block attempt
-> 1. the sequencing rule applies as normal
-> 2. the target of the action cannot be changed
-> 3. the Methuselah who has declared the current block attempt may use effects that force the currently blocking to attempt to block (no other minion can attempt to block until this block attempt is resolved)
-> 4. once every Methuselah has passed, the block attempt is resolved: if it is successful, the action is unsuccessful and blocked. Otherwise, switch back to "A. There is no current block attempt"
-> 
-> C. Blocks have been declined by all Methuselahs
-> 1. the sequencing rule applies as normal
-> 2. if the target of the action is changed, switch to "A. There is no current block attempt"
-> 3. once every Methuselah has passed, the action is successful and resolves
-
 ### DETAILED COURSE
 
 #### **1. Announce the Action**
 
-When announcing an action, the acting minion gets locked. (only ready unlocked minions can perform actions). Also, all details of the action are defined when the action is announced, which includes:
+When announcing an action, the acting minion gets locked (only ready unlocked minions can perform actions). Also, all details of the action are defined when the action is announced, which includes:
 - the target(s),
 - the cost
-- the effects, and so on. 
+- the effects, and so on.
 
-Any card required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. 
+Any card required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action has resolved. 
 
 > The action's cost, if any, is only paid if the action succeeds; the cost is not paid if the action is blocked.
 > The costs of action modifiers and reaction cards are always paid when the cards are played, regardless of the
@@ -1400,10 +1385,48 @@ in a clockwise order.
 > When a card describes an action that is directed at another Methuselah, that action is typically directed.
 > The card's text will usually include a (D) symbol as a reminder.
 
-
 **Undirected action**\
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action can be blocked by the acting Methuselah's 
 prey or predator, with the prey getting the first opportunity to block.
+
+
+
+> **DETAILED BLOCK RESOLUTION SEQUENCING**\
+> \
+> After the action has been announced, the action resolution follows the sequencing explained in the following. There are three relevant game states which can occur
+> during action resolution:
+> - A. There is no current block attempt
+> - B. there is an ongoing block attempt
+> - C. all Methuselahs have declined to block.
+>   
+> An action reaches resolution when either a block attempt is successful or all Methuselahs have declined to block.\
+> In all cases, the regular sequencing rules [insert link here] are applied as normal.
+> 
+> > **REMINDER**\
+> > If any Methuselah plays a card or effect, the impulse moves back to the acting Methuselah.
+> 
+> **A. There is no current block attempt**\
+> Any effect that can be used during an action (playing an action modifier or reaction card, using effects of cards in play etc.) can be used, with the exception of
+> stealth and intercept effects. In addition, a Methuselah who can block (see Who May Attempt to Block) can declare a block attempt. That changes the gamestate to "B.
+> there is an ongoing block attempt".\
+> \
+> If a Methuselah declines to block, that Methuselah cannot declare any block attempt until the end of the action unless the target of the action changes.
+> Once every Methuselah has declined to block, switch to gamestate "C. Blocks have been declined by all Methuselahs"\
+> \
+> **B. There is an ongoing block attempt**\
+> After a Methuselah has declared a block attempt with any minion, they may use effects that force the currently blocking minion to attempt to block
+> (no other minion can attempt to block until this attempt is resolved). 
+> 
+> > **REMINDER**\
+> > To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept.\
+> 
+> Once every Methuselah has passed because they cannot or don not want to play further effects, the block attempt is resolved: if it is successful, the action is blocked
+> and resolves as unsuccessful.\
+> Otherwise, switch back to gamestate "A. There is no current block attempt"\
+> \
+> **C. Blocks have been declined by all Methuselahs**
+> Once every Methuselah has passed, the action is successful and resolves. If the target of the action is changed, however, switch to "A. There is no current block
+> attempt".
 
 *The Dowager's action to recruit the Underbridge Stray, an ally, is not
 directed at another Methuselah, so it is undirected. It can be blocked
