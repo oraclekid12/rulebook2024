@@ -1389,7 +1389,15 @@ in a clockwise order.
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action can be blocked by the acting Methuselah's 
 prey or predator, with the prey getting the first opportunity to block.
 
+*The Dowager's action to recruit the Underbridge Stray, an ally, is not
+directed at another Methuselah, so it is undirected. It can be blocked
+by the ready unlocked minions of Sarah's prey or Sarah's predator. If
+her prey's first attempt fails, another can be made and so on until her
+prey declines to make any further attempts, at which point her predator
+may begin attempting to block.*
 
+> REMINDER\
+> Political actions, equip actions, employ retainer actions, recruit ally actions are always undirected. 
 
 > **DETAILED BLOCK RESOLUTION SEQUENCING**\
 > \
@@ -1415,7 +1423,7 @@ prey or predator, with the prey getting the first opportunity to block.
 > \
 > **B. There is an ongoing block attempt**\
 > After a Methuselah has declared a block attempt with any minion, they may use effects that force the currently blocking minion to attempt to block
-> (no other minion can attempt to block until this attempt is resolved). 
+> (no other minion can attempt to block until this attempt is resolved). A Methuselah may attempt to block with multiple minions subsequently.
 > 
 > > **REMINDER**\
 > > To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept.\
@@ -1427,16 +1435,6 @@ prey or predator, with the prey getting the first opportunity to block.
 > **C. Blocks have been declined by all Methuselahs**
 > Once every Methuselah has passed, the action is successful and resolves. If the target of the action is changed, however, switch to "A. There is no current block
 > attempt".
-
-*The Dowager's action to recruit the Underbridge Stray, an ally, is not
-directed at another Methuselah, so it is undirected. It can be blocked
-by the ready unlocked minions of Sarah's prey or Sarah's predator. If
-her prey's first attempt fails, another can be made and so on until her
-prey declines to make any further attempts, at which point her predator
-may begin attempting to block.*
-
-> REMINDER\
-> Political actions, equip actions, employ retainer actions, recruit ally actions are always undirected. 
 
 > **ADVANCED RULES**\
 > Some cards can make actions **fail**. Actions that fail are similar to actions that have been blocked except that
@@ -3144,3 +3142,4 @@ The following effects are not imbued-compatible:
 - **Illusions of the Kindred** (if the bottom card is an imbued, no new combat begins and the imbued is removed from play)
 - **Might of the Camarilla** (won't force a Methuselah to burn an uncontrolled imbued)
 - **Recruitment** (search as indicated: vampire)
+
