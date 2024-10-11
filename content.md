@@ -198,7 +198,9 @@ Some library cards have multiple Discipline symbols on the attribute bar
 
 <details>
 
- <summary>Elder Format</summary>
+ <summary>Elder Format</summary
+
+
 >  **ADVANCED RULES**\
 > **Advanced:** An advanced card is a type of vampire card for your
 > crypt. An advanced card looks just like a regular crypt card except
@@ -2426,6 +2428,118 @@ Struggle Fifth Edition, but many of the stories told with those cards
 are in the past of the World of Darkness as Kindred face new threats and
 allegiances change.
 
+
+<details>
+
+ <summary>Elder Format</summary>
+>  **ADVANCED RULES**\
+> **Advanced:** An advanced card is a type of vampire card for your
+> crypt. An advanced card looks just like a regular crypt card except
+> that it has an Advanced icon under the clan icon. The advanced card
+> is a vampire card in all respects, so it can be influenced in the
+> normal manner (see [**Advanced**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#advanced)).
+
+![](bin/media/image13.png)
+
+
+</details>
+
+
+
+<details>
+
+<summary>Elder Format</summary>
+ 
+> **Trophy:** \
+> A trophy may be put into play using a master phase action
+> (or can be retrieved as described in traits: [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
+> It has no effect until it is moved to a vampire. Once placed on a
+> vampire, a trophy is controlled by the controller of the vampire it
+> is on, and it cannot be awarded again.
+
+</details>
+
+
+> **ADVANCED RULES**\
+> \
+> Some cards have a burn option icon.\
+> \
+> This icon means that a Methuselah who does not control a minion who
+> meets the requirements of this card or is not a legal target, may discard it during ANY
+> Methuselah's unlock phase and replace it.\
+> \
+> Each Methuselah is limited to one such discard each unlock phase.
+
+
+<details>
+<summary>Elder Format</summary>
+
+> **ADVANCED RULES**\
+> \
+> You can use a master phase action to mark a Red List minion
+> (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
+
+
+</details>
+
+> 3c. If the victim was Red List, the diablerist may receive trophies
+> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
+> The steps of diablerie are treated as a single unit. No effects can
+> be used to interrupt the diablerie; effects may be played either
+> before or after, as appropriate.
+
+
+
+> **First Strike:** A strike done with first strike is resolved before a normal strike. Thus, if the opposing minion is burned or sent to
+> torpor by a strike done with first strike, their strike will not be
+> resolved at all. If the opposing minion was striking with a weapon
+> that is stolen or destroyed with first strike, then the opposing
+> minion simply loses their strike altogether. If both minions strike
+> with first strike, then the strikes are resolved simultaneously. A
+> strike done with first strike will still not resolve before a combat
+> ends effect (which always resolves first), and a dodge still works
+> against the effects of a strike done with first strike.
+
+> **ADVANCED RULES**\
+> \
+> **Advanced:** An advanced card is a type of vampire card for your
+> crypt. An advanced card has a special icon under the clan icon. The
+> advanced card is a vampire card in all respects, so it can be
+> influenced in the normal manner. In addition, if you already control
+> the advanced or the associated regular "base" vampire and the other
+> version of the vampire is in your uncontrolled region, then you can
+> spend 4 transfers and 1 pool counter to move the vampire card from
+> your uncontrolled region to the controlled vampire card (place the
+> advanced card on top of the base card). The two cards effectively
+> merge to form a single vampire.
+
+![](bin/media/image13.png)
+
+> The particulars of this merge are as follows. The counters and cards
+> on the vampire already in play remain, but any counters or cards (if
+> any) on the vampire coming from the uncontrolled region are burned.
+> The advanced and the base card are treated as a single vampire card,
+> even if sent to the uncontrolled region somehow, until the vampire is
+> burned. Any effects in play that targeted the vampire now target the
+> merged version.\
+> \
+> When merged, the text on the base card still applies, but the rest of
+> the card is ignored (capacity, Disciplines, etc.). The advanced card
+> applies in full. If the advanced card conflicts with the base card (a
+> different sect, for example), the advanced card has precedence. Some
+> merged cards have an additional effect that only applies if the card
+> is merged with its base card. Such an effect is identified in the
+> card text by a merged icon.
+
+![](bin/media/image45.gif)
+
+> The advanced vampire (merged or not) will contest other copies of the
+> same vampire (advanced or not) in play, as usual.
+
+> You may use a discard phase action to put an **event card** into play
+> but no more than one per phase. 
+>
+> Each event card may only be played once each game.
 
 
 ## **OTHER VAMPIRE SECTS**
