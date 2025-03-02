@@ -1212,67 +1212,20 @@ otherwise noted on the card.
 
 
 
-## **SUMMARY OF THE COURSE OF AN ACTION**
+## **Interactions over the course an action**
+Other Methuselah(s) may try to **block** the action with any of their ready unlocked minions. The action is blocked if the
+blocker's intercept is equal to or greater than the acting minion's stealth. By default, minions have 0 stealth and 0 intercept. A block attempt will normally succeed unless the action has inherent stealth (such as hunting) or a card or effect is used to increase the acting minion's stealth. 
 
-**1. Action is announced:** Play the card for the action or indicate
-another effect (card in play, basic bleed or hunt) used to announce the
-action and lock the minion who is performing the action.
+A block attempt consists of the declaration of a methuselah, who can in turn use several minions which attempt to block. A methuselah needs to declare their intent block and name the minion who shall make their first block attempt. If a minion could not block the action, because their intercept is lower than the acting minion's stealth and the attempting minion's intercept isn't increased further, a methuselah may name another minion who in turn attempts to block. 
 
-Some cards are played "as the action is announced”, those cards must be played before regular action modifier cards and reaction cards. 
-
-**2. Target Methuselah(s) may try to block** the action with any of
-their ready unlocked minions or if the action does not target another
-Methuselah, or targets a card controlled by the acting Methuselah, then
-the minions of the prey and predator may try to block.
-
-- If a **block attempt is unsuccessful**, another attempt can be made.
-- If a **block attempt is successful**, then the blocking minion locks
+- If a **minion's block attempt is unsuccessful**, another attempt can be made.
+- If a **minion's block attempt is successful**, then the blocking minion locks
 and enters combat with the acting minion.
 
-**3.** If no attempt is successful and no more attempts are made, then
-the **action is successful**, and the cost of the action is paid.
+If a block attempt fails, either another attempt is made or the
+defending Methuselah declares that they will not make any further
+attempts to block the action. Once a Methuselah decides not to make any further attempts to block, that decision is final. If the target of the action is changed (e.g. a bleed action is redirected), this will reopen block attempts, following the normal rules.
 
-**Action modifiers** and **reaction cards** can be played at any time
-before resolution during an action, with the acting Methuselah getting
-the opportunity to play first. Only the acting minion can play action
-modifiers, while only other Methuselahs' ready unlocked minions can play
-reaction cards. The effect of an action modifier or a reaction card
-lasts for the duration of the current action. Also remember that the
-same minion cannot play the same action modifier or reaction card more
-than once per action.
-
-
-
-![](bin/media/image42.png)
-
-
-
-**1. Announce the Action**
-
-All details of the action are defined when the action is announced,
-including the target(s), the cost, the effects, and so on. Any card
-required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. Lock the
-acting minion (only ready unlocked minions can perform actions).
-
-Some cards are played "as the action is announced”, those cards must be played before regular action modifier cards and reaction cards.
-
-**EXCEPTION:** Any decisions to be made for a referendum are not
-announced until the action succeeds (see [**The Political Action**](https://www.vekn.net/rulebook#the-political-action)).
-
-*During Sarah's minion phase, she decides that one of her unlocked
-minions, Belinde, will take an action to bleed her prey, Alexis. Sarah
-locks Belinde and says, "Belinde bleeds Alexis for 1 (meaning 1 pool)."*
-
-*After resolving that action (successful or not), Sarah decides that
-another of her unlocked minions, The Dowager, will recruit an ally, the
-Underbridge Stray, from her hand. She locks The Dowager and plays the
-Underbridge Stray, announcing: "The Dowager recruits the Underbridge
-Stray at +1 stealth, costing The Dowager 1 blood." (The blood is not
-paid until the action succeeds.)*
-
-
-
-**2. Resolve Any Block Attempts**
 
 **Who May Attempt to Block**
 
@@ -1289,13 +1242,6 @@ prey getting the first opportunity to block.
 
 A minion can attempt to block as many times as they wish as long as
 another minion is not already blocking.
-
-If one attempt to block fails, another can be made as often as the
-blocking Methuselah wishes.
-
-Once a Methuselah decides not to make any further attempts to block,
-that decision is final.
-If the target of the action is changed (e.g. a bleed action is redirected), this will reopen block attempts, following the normal rules.
 
 As a reminder, when a card describes an action that is typically
 directed at another Methuselah, the card's text will usually include a
@@ -1324,27 +1270,87 @@ may begin attempting to block.*
 
 **Stealth and Intercept**
 
-**Stealth** represents the measures that the acting minion is taking to
+***Stealth** represents the measures that the acting minion is taking to
 conduct their business discreetly, to avoid attracting the attention of
 those who would oppose them. **Intercept** represents the blocking
 minion's efforts to discover the plans of the acting minion and to stalk
 or chase them in order to detain them (by fighting with them) before
-they can accomplish their goal.
+they can accomplish their goal.*
 
-To see if a block attempt succeeds, compare the acting minion's stealth
-to the blocking minion's intercept. The action is blocked if the
-blocker's intercept is equal to or greater than the acting minion's
-stealth. By default, minions have 0 stealth and 0 intercept. So a block
-attempt will normally succeed unless the action has inherent stealth
-(such as hunting) or a card or effect is used to increase the acting
-minion's stealth.
+
+
+## **SUMMARY OF THE COURSE OF AN ACTION**
+An action is resolved in six steps:
+
+**1. Action is announced:** Play the card for the action or indicate
+another effect (card in play, basic bleed or hunt) used to announce the
+action and lock the minion who is performing the action.
+
+**2. As the action is announced** 
+Directly after the announcement of an action, methuselahs get the opportunity to play cards or use effects "as the action is announced". After every Methesulah declined to play a card or generate an effect while holding the impulse, this step concludes.
+
+**3. Modifications to the action**\
+**Action modifiers** and **reaction cards** can be played during an action at any time after the action has been announced until its resolution. Both can alter properties of the action, like action modifiers to increase the bleed amount further (e.g. Conditioning) or reactions to reduce the bleed amount (e.g. Protected District). The effect of an action modifier or a reaction card lasts for the duration of the current action. 
+
+**4. Block resolution** 
+To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept *after every methuselah has passed on the opportunity to use another alteration effect*. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth. 
+
+**5. After blocks are declined** 
+If no block attempt was successful or if all Methuselahs have declined to block, there is another opportunity to play cards or use effects before the action resolution step
+
+**6. Action resolution**
+If no attempt is successful and no more attempts are made, then the **action is successful**, and the cost of the action is paid. If the action is blocked, combat ensues between the acting and blocking minion.
+
+**7. After action resolution**
+effects after action resolution 
+
+
+
+![](bin/media/image42.png)
+
+
+
+**1. Announce the Action**
+
+All details of the action are defined when the action is announced,
+including the target(s), the cost, the effects, and so on. Any card
+required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. Lock the
+acting minion (only ready unlocked minions can perform actions).
+
+
+**EXCEPTION:** Any decisions to be made for a referendum are not
+announced until the action succeeds (see [**The Political Action**](https://www.vekn.net/rulebook#the-political-action)).
 
 Some actions have an inherent stealth, as noted in the action list and
 on some action cards. The minion taking such an action starts with
 greater stealth than normal.
 
-Additionally, some cards and other effects can be used to increase or decrease (even below 0) a
-minion's stealth or intercept, as noted on card text.
+*During Sarah's minion phase, she decides that one of her unlocked
+minions, Belinde, will take an action to bleed her prey, Alexis. Sarah
+locks Belinde and says, "Belinde bleeds Alexis for 1 (meaning 1 pool)."*
+
+*After resolving that action (successful or not), Sarah decides that
+another of her unlocked minions, The Dowager, will recruit an ally, the
+Underbridge Stray, from her hand. She locks The Dowager and plays the
+Underbridge Stray, announcing: "The Dowager recruits the Underbridge
+Stray at +1 stealth, costing The Dowager 1 blood." (The blood is not
+paid until the action succeeds.)*
+
+
+**2. As the action is announced** 
+Directly after the announcement of an action, methuselahs get the opportunity to play cards or use effects "as the action is announced". After every Methesulah declined to play a card or generate an effect while holding the impulse, this step concludes.
+
+*Sarah announces that Sully is bleeding Alexis. Sarah has no effects
+that she wishes to play before Alexis decides whether to block, so Sarah
+says "Do you block?" Alexis decides not to block, so then Sarah plays
+Bonding (an action modifier that adds 1 to the bleed). Alexis is bled
+for 2 pool.*
+
+**3. Modifications to the action**\
+**Action modifiers** and **reaction cards** can be played during an action at any time after the action has been announced until its resolution. 
+Both can alter properties of the action, like action modifiers to increase the bleed amount further (e.g. Conditioning) or reactions to reduce the bleed amount (e.g. Protected District). 
+The effect of an action modifier or a reaction card lasts for the duration of the current action. 
+Additionally, some cards and other effects can be used to increase or decrease (even below 0) a minion's stealth or intercept, as noted on card text.
 
 Stealth can be added during an action only when needed, that is, only if
 the action is currently being blocked and the blocking minion has enough
@@ -1361,22 +1367,20 @@ is undirected and has a default of +1 stealth. Her prey declines to
 block.*
 
 *Her predator, however, plays a reaction card to give +1 intercept to
-one of her ready unlocked minions, Ayelech. Sarah has no cards to play
-to increase Wauneka's stealth, so the action is blocked. Ayelech is
-locked, and combat begins.*
+one of her ready unlocked minions, Ayelech. Sarah in turn plays Lost in Crowds
+to increase Wauneka's stealth.* 
 
-If a block attempt fails, either another attempt is made or the
-defending Methuselah declares that they will not make any further
-attempts to block the action. 
+**4. Block resolution** 
+To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept *after every methuselah has passed on the opportunity to use another alteration effect*. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth. 
 
-Once all Methuselahs have declined to block, the impulse goes back to the acting Methuselah (then the other Methuselahs
-following the order previously given) to play more cards and effects before resolving the action.
+**5. After blocks are declined** 
+If no block attempt was successful or if all Methuselahs have declined to block, there is another opportunity to play cards or use effects before the action resolution step
 
-*Sarah announces that Sully is bleeding Alexis. Sarah has no effects
-that she wishes to play before Alexis decides whether to block, so Sarah
-says "Do you block?" Alexis decides not to block, so then Sarah plays
-Bonding (an action modifier that adds 1 to the bleed). Alexis is bled
-for 2 pool.*
+**6. Action resolution**
+If no attempt is successful and no more attempts are made, then the **action is successful**, and the cost of the action is paid. If the action is blocked, combat ensues between the acting and blocking minion.
+
+**7. After action resolution**
+effects after action resolution 
 
 
 > **DETAILED COURSE OF AN ACTION**
