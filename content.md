@@ -1,3 +1,165 @@
+# ADVANCED RULES
+<details>
+
+ <summary>Elder Format</summary>
+>  **ADVANCED RULES**\
+> **Advanced:** An advanced card is a type of vampire card for your
+> crypt. An advanced card looks just like a regular crypt card except
+> that it has an Advanced icon under the clan icon. The advanced card
+> is a vampire card in all respects, so it can be influenced in the
+> normal manner (see [**Advanced**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#advanced)).
+
+![](bin/media/image13.png)
+
+
+</details>
+
+
+> **ADVANCED RULES**\
+> Event Cards: Event cards are put into play during the discard phase
+> to represent events that affect the World of Darkness as a whole
+> (see [**Event Card**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#event-card)).
+
+
+<details>
+
+<summary>Elder Format</summary>
+ 
+> **Trophy:** \
+> A trophy may be put into play using a master phase action
+> (or can be retrieved as described in traits: [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
+> It has no effect until it is moved to a vampire. Once placed on a
+> vampire, a trophy is controlled by the controller of the vampire it
+> is on, and it cannot be awarded again.
+
+</details>
+
+
+<details>
+<summary>Elder Format</summary>
+ 
+> **ADVANCED RULES**\
+> \
+> **Reflex cards**\
+> \
+> A minion can play a reflex card to cancel a specified kind of card
+> played against them as it is played (see [**Playing a Card**](https://www.vekn.net/rulebook#playing-a-card)).
+
+
+![](bin/media/image28.png)
+
+
+
+> **ADVANCED RULES**\
+> \
+> **Event Cards**\
+> \
+> Event cards are played to represent events that affect the World of
+> Darkness as a whole. Once each discard phase, a Methuselah may use a
+> discard phase action to put an event card in play. Each event can
+> only be played once in a game. An event card is controlled by the
+> Methuselah who played it.
+
+
+![](bin/media/image29.png)
+
+</details>
+
+
+> **ADVANCED RULES**\
+> A minion with the corresponding card text can imitate a requirement if they "can play cards as" or "can use cards as" they were from a certain clan or sect, would have a title or would have the discipline on the indicated level.
+> To be able to play a card which has several requirements, e.g. a title and a clan; the minion needs to imitate all requirements they lack. If a title belongs to a sect (e.g. Prince), they are treated as if they were from the corresponding sect.
+> Cards are playable via imitation effects only if their ability matches with the necessary requirements literally.
+
+
+<details>
+
+<summary>Elder Format</summary>
+
+> **ADVANCED RULES**\
+> \
+> Some cards have a burn option icon.\
+> \
+> This icon means that a Methuselah who does not control a minion who
+> meets the requirements of this card or is not a legal target, may discard it during ANY
+> Methuselah's unlock phase and replace it.\
+> \
+> Each Methuselah is limited to one such discard each unlock phase.
+
+
+</details>
+
+
+<details>
+<summary>Elder Format</summary>
+
+> **ADVANCED RULES**\
+> \
+> You can use a master phase action to mark a Red List minion
+> (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
+
+
+</details>
+
+
+<details>
+
+<summary>Elder Format</summary>
+> **ADVANCED RULES**\
+> \
+> **Advanced:** An advanced card is a type of vampire card for your
+> crypt. An advanced card has a special icon under the clan icon. The
+> advanced card is a vampire card in all respects, so it can be
+> influenced in the normal manner. In addition, if you already control
+> the advanced or the associated regular "base" vampire and the other
+> version of the vampire is in your uncontrolled region, then you can
+> spend 4 transfers and 1 pool counter to move the vampire card from
+> your uncontrolled region to the controlled vampire card (place the
+> advanced card on top of the base card). The two cards effectively
+> merge to form a single vampire.
+
+![](bin/media/image13.png)
+
+> The particulars of this merge are as follows. The counters and cards
+> on the vampire already in play remain, but any counters or cards (if
+> any) on the vampire coming from the uncontrolled region are burned.
+> The advanced and the base card are treated as a single vampire card,
+> even if sent to the uncontrolled region somehow, until the vampire is
+> burned. Any effects in play that targeted the vampire now target the
+> merged version.\
+> \
+> When merged, the text on the base card still applies, but the rest of
+> the card is ignored (capacity, Disciplines, etc.). The advanced card
+> applies in full. If the advanced card conflicts with the base card (a
+> different sect, for example), the advanced card has precedence. Some
+> merged cards have an additional effect that only applies if the card
+> is merged with its base card. Such an effect is identified in the
+> card text by a merged icon.
+
+![](bin/media/image45.gif)
+
+> The advanced vampire (merged or not) will contest other copies of the
+> same vampire (advanced or not) in play, as usual.
+
+
+</details>
+
+<details>
+
+<summary>Elder Format</summary>
+
+> **ADVANCED RULES**
+> 
+> You may use a discard phase action to put an **event card** into play
+> but no more than one per phase. 
+>
+> Each event card may only be played once each game.
+
+</details>
+
+
+
+
 # [**1. Introduction**](https://www.vekn.net/rulebook/1-introduction)
 
 
@@ -93,11 +255,6 @@ Each crypt card has a set of elements that define the vampire as described below
 
 **Name:** Each crypt card is unique, so only one copy of each can be in 
 play at a time.
-
-> **ADVANCED RULES**\
-> A second Methuselah could contest control of the vampire (see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#Contested-cards)), 
-> which means that the Methuselahs are struggling for control of them.
-
 
 **Blood Capacity:** The number in the red circle in the lower right
 corner of the card is the vampire's capacity.
@@ -196,20 +353,6 @@ Some library cards have multiple Discipline symbols on the attribute bar
 > **Group:** Each vampire belongs to a specific group, identified by a
 > number above the upper left corner of the text box.
 
-<details>
-
- <summary>Elder Format</summary>
->  **ADVANCED RULES**\
-> **Advanced:** An advanced card is a type of vampire card for your
-> crypt. An advanced card looks just like a regular crypt card except
-> that it has an Advanced icon under the clan icon. The advanced card
-> is a vampire card in all respects, so it can be influenced in the
-> normal manner (see [**Advanced**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#advanced)).
-
-![](bin/media/image13.png)
-
-
-</details>
 
 **Text box:** The area containing a vampire's sect (Camarilla in this
 case), title, special abilities or other attributes.
@@ -243,11 +386,6 @@ an icon there that indicates what type of card they are.
 
 **Minion Cards:** Minion cards are played by the minions (vampires and
 allies) the Methuselah controls.
-
-> **ADVANCED RULES**\
-> Event Cards: Event cards are put into play during the discard phase
-> to represent events that affect the World of Darkness as a whole
-> (see [**Event Card**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#event-card)).
 
 
 ### **Master Cards**
@@ -284,41 +422,28 @@ like regular master cards.
 **Other master cards:** Any master cards not explained here have their
 effects described on them.
 
-> **ADVANCED RULES**\
-> **Disciplines:** \
-> A Discipline card is played on a controlled vampire
-> to give them an additional level of a Discipline, either giving a
-> vampire the basic level of a new Discipline or increasing the level
-> of a Discipline from basic to superior. Most of them also increase
-> the capacity of the vampire by 1 (the "+1" in the red circle in the
-> bottom right corner of the card indicates this in that case) along
-> with the Discipline granted, but they do not automatically gain an
-> extra blood to fill the new capacity.
-> \
-> **Out-of-turn:**\
-> You may play an out-of-turn master card whenever
-> appropriate during another Methuselah's turn. Doing so counts against
-> the allotted number of master phase actions you receive in your next
-> master phase, even if the out-of-turn master card is cancelled.
-> Regardless of the number of master phase actions you normally have,
-> you cannot play a second out-of-turn master card before your next
-> master phase. You cannot play an out-of-turn master card on your own
-> turn.
-> (see [**Master Phase**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#master-phase)).\ 
 
+**Disciplines:** \
+A Discipline card is played on a controlled vampire
+to give them an additional level of a Discipline, either giving a
+vampire the basic level of a new Discipline or increasing the level
+of a Discipline from basic to superior. Most of them also increase
+the capacity of the vampire by 1 (the "+1" in the red circle in the
+bottom right corner of the card indicates this in that case) along
+with the Discipline granted, but they do not automatically gain an
+extra blood to fill the new capacity.
+\
+**Out-of-turn:**\
+You may play an out-of-turn master card whenever
+appropriate during another Methuselah's turn. Doing so counts against
+the allotted number of master phase actions you receive in your next
+master phase, even if the out-of-turn master card is cancelled.
+Regardless of the number of master phase actions you normally have,
+you cannot play a second out-of-turn master card before your next
+master phase. You cannot play an out-of-turn master card on your own
+turn.
+(see [**Master Phase**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#master-phase)).\ 
 
-<details>
-
-<summary>Elder Format</summary>
- 
-> **Trophy:** \
-> A trophy may be put into play using a master phase action
-> (or can be retrieved as described in traits: [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
-> It has no effect until it is moved to a vampire. Once placed on a
-> vampire, a trophy is controlled by the controller of the vampire it
-> is on, and it cannot be awarded again.
-
-</details>
 
 ### **Minion Cards**
 
@@ -459,35 +584,6 @@ A minion cannot play the same reaction card more than once during a
 single action (even if using a different Discipline level). A reaction
 card does not lock the minion playing it.
 
-<details>
-<summary>Elder Format</summary>
- 
-> **ADVANCED RULES**\
-> \
-> **Reflex cards**\
-> \
-> A minion can play a reflex card to cancel a specified kind of card
-> played against them as it is played (see [**Playing a Card**](https://www.vekn.net/rulebook#playing-a-card)).
-
-
-![](bin/media/image28.png)
-
-
-
-> **ADVANCED RULES**\
-> \
-> **Event Cards**\
-> \
-> Event cards are played to represent events that affect the World of
-> Darkness as a whole. Once each discard phase, a Methuselah may use a
-> discard phase action to put an event card in play. Each event can
-> only be played once in a game. An event card is controlled by the
-> Methuselah who played it.
-
-
-![](bin/media/image29.png)
-
-</details>
 
 # [**3. Playing the Game**](https://www.vekn.net/rulebook/3-playing-the-game)
 
@@ -624,10 +720,6 @@ a minion can discard a card from their controller's hand.
 
 Optional cost reducers can be used when the card is played (in order to play the card) or upon resolution (you may wait until you know the action is successful). If the card is cancelled, then the effect is not used.
 
-> **ADVANCED RULES**\
-> A minion with the corresponding card text can imitate a requirement if they "can play cards as" or "can use cards as" they were from a certain clan or sect, would have a title or would have the discipline on the indicated level.
-> To be able to play a card which has several requirements, e.g. a title and a clan; the minion needs to imitate all requirements they lack. If a title belongs to a sect (e.g. Prince), they are treated as if they were from the corresponding sect.
-> Cards are playable via imitation effects only if their ability matches with the necessary requirements literally.
 
 ![](bin/media/image16.png)
 
@@ -863,23 +955,6 @@ continue the contest.
 > The vampire yielding the title will now have no title and loses the
 > benefits of the title for the remainder of the game.
 
-<details>
-
-<summary>Elder Format</summary>
-
-> **ADVANCED RULES**\
-> \
-> Some cards have a burn option icon.\
-> \
-> This icon means that a Methuselah who does not control a minion who
-> meets the requirements of this card or is not a legal target, may discard it during ANY
-> Methuselah's unlock phase and replace it.\
-> \
-> Each Methuselah is limited to one such discard each unlock phase.
-
-
-</details>
-
 
 ## **2. MASTER PHASE**
 *A master phase action represents your personal activity during the turn as 
@@ -909,17 +984,6 @@ even if it is played on a card controlled by another Methuselah.\
 It is not compulsory to use your master phase actions. However, you
 cannot save master phase actions for later; master phase actions not
 used during this phase are lost.
-
-<details>
-<summary>Elder Format</summary>
-
-> **ADVANCED RULES**\
-> \
-> You can use a master phase action to mark a Red List minion
-> (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
-
-
-</details>
 
 
 ## **3. MINION PHASE**
@@ -2205,48 +2269,6 @@ counters from her pool to Alexa Draper and moves her to the ready
 region.*
 </details>
 
-<details>
-
-<summary>Elder Format</summary>
-> **ADVANCED RULES**\
-> \
-> **Advanced:** An advanced card is a type of vampire card for your
-> crypt. An advanced card has a special icon under the clan icon. The
-> advanced card is a vampire card in all respects, so it can be
-> influenced in the normal manner. In addition, if you already control
-> the advanced or the associated regular "base" vampire and the other
-> version of the vampire is in your uncontrolled region, then you can
-> spend 4 transfers and 1 pool counter to move the vampire card from
-> your uncontrolled region to the controlled vampire card (place the
-> advanced card on top of the base card). The two cards effectively
-> merge to form a single vampire.
-
-![](bin/media/image13.png)
-
-> The particulars of this merge are as follows. The counters and cards
-> on the vampire already in play remain, but any counters or cards (if
-> any) on the vampire coming from the uncontrolled region are burned.
-> The advanced and the base card are treated as a single vampire card,
-> even if sent to the uncontrolled region somehow, until the vampire is
-> burned. Any effects in play that targeted the vampire now target the
-> merged version.\
-> \
-> When merged, the text on the base card still applies, but the rest of
-> the card is ignored (capacity, Disciplines, etc.). The advanced card
-> applies in full. If the advanced card conflicts with the base card (a
-> different sect, for example), the advanced card has precedence. Some
-> merged cards have an additional effect that only applies if the card
-> is merged with its base card. Such an effect is identified in the
-> card text by a merged icon.
-
-![](bin/media/image45.gif)
-
-> The advanced vampire (merged or not) will contest other copies of the
-> same vampire (advanced or not) in play, as usual.
-
-
-</details>
-
 ## **5. DISCARD PHASE**
 
 In your discard phase you receive by default one discard phase action.
@@ -2254,19 +2276,6 @@ You can use a discard phase action to discard a card from your hand and
 draw to replace it. Discard phase actions not used are lost; they cannot
 be saved for later.
 
-
-<details>
-
-<summary>Elder Format</summary>
-
-> **ADVANCED RULES**
-> 
-> You may use a discard phase action to put an **event card** into play
-> but no more than one per phase. 
->
-> Each event card may only be played once each game.
-
-</details>
 
 ## **END OF TURN**
 Some effects take place at the end of your turn, after your Discard Phase.
@@ -2497,7 +2506,6 @@ clan (see [**Contested Titles**](https://www.vekn.net/rulebook/4-detailed-turn-s
 
 During the polling step of a referendum, a Methuselah gains 2 votes for
 each ready kholo or magaji they control.
-
 
 
 ## **TRAITS**
