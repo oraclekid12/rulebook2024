@@ -1,164 +1,3 @@
-# ADVANCED RULES
-<details>
-
- <summary>Elder Format</summary>
->  **ADVANCED RULES**\
-> **Advanced:** An advanced card is a type of vampire card for your
-> crypt. An advanced card looks just like a regular crypt card except
-> that it has an Advanced icon under the clan icon. The advanced card
-> is a vampire card in all respects, so it can be influenced in the
-> normal manner (see [**Advanced**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#advanced)).
-
-![](bin/media/image13.png)
-
-
-</details>
-
-
-> **ADVANCED RULES**\
-> Event Cards: Event cards are put into play during the discard phase
-> to represent events that affect the World of Darkness as a whole
-> (see [**Event Card**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#event-card)).
-
-
-<details>
-
-<summary>Elder Format</summary>
- 
-> **Trophy:** \
-> A trophy may be put into play using a master phase action
-> (or can be retrieved as described in traits: [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
-> It has no effect until it is moved to a vampire. Once placed on a
-> vampire, a trophy is controlled by the controller of the vampire it
-> is on, and it cannot be awarded again.
-
-</details>
-
-
-<details>
-<summary>Elder Format</summary>
- 
-> **ADVANCED RULES**\
-> \
-> **Reflex cards**\
-> \
-> A minion can play a reflex card to cancel a specified kind of card
-> played against them as it is played (see [**Playing a Card**](https://www.vekn.net/rulebook#playing-a-card)).
-
-
-![](bin/media/image28.png)
-
-
-
-> **ADVANCED RULES**\
-> \
-> **Event Cards**\
-> \
-> Event cards are played to represent events that affect the World of
-> Darkness as a whole. Once each discard phase, a Methuselah may use a
-> discard phase action to put an event card in play. Each event can
-> only be played once in a game. An event card is controlled by the
-> Methuselah who played it.
-
-
-![](bin/media/image29.png)
-
-</details>
-
-
-> **ADVANCED RULES**\
-> A minion with the corresponding card text can imitate a requirement if they "can play cards as" or "can use cards as" they were from a certain clan or sect, would have a title or would have the discipline on the indicated level.
-> To be able to play a card which has several requirements, e.g. a title and a clan; the minion needs to imitate all requirements they lack. If a title belongs to a sect (e.g. Prince), they are treated as if they were from the corresponding sect.
-> Cards are playable via imitation effects only if their ability matches with the necessary requirements literally.
-
-
-<details>
-
-<summary>Elder Format</summary>
-
-> **ADVANCED RULES**\
-> \
-> Some cards have a burn option icon.\
-> \
-> This icon means that a Methuselah who does not control a minion who
-> meets the requirements of this card or is not a legal target, may discard it during ANY
-> Methuselah's unlock phase and replace it.\
-> \
-> Each Methuselah is limited to one such discard each unlock phase.
-
-
-</details>
-
-
-<details>
-<summary>Elder Format</summary>
-
-> **ADVANCED RULES**\
-> \
-> You can use a master phase action to mark a Red List minion
-> (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
-
-
-</details>
-
-
-<details>
-
-<summary>Elder Format</summary>
-> **ADVANCED RULES**\
-> \
-> **Advanced:** An advanced card is a type of vampire card for your
-> crypt. An advanced card has a special icon under the clan icon. The
-> advanced card is a vampire card in all respects, so it can be
-> influenced in the normal manner. In addition, if you already control
-> the advanced or the associated regular "base" vampire and the other
-> version of the vampire is in your uncontrolled region, then you can
-> spend 4 transfers and 1 pool counter to move the vampire card from
-> your uncontrolled region to the controlled vampire card (place the
-> advanced card on top of the base card). The two cards effectively
-> merge to form a single vampire.
-
-![](bin/media/image13.png)
-
-> The particulars of this merge are as follows. The counters and cards
-> on the vampire already in play remain, but any counters or cards (if
-> any) on the vampire coming from the uncontrolled region are burned.
-> The advanced and the base card are treated as a single vampire card,
-> even if sent to the uncontrolled region somehow, until the vampire is
-> burned. Any effects in play that targeted the vampire now target the
-> merged version.\
-> \
-> When merged, the text on the base card still applies, but the rest of
-> the card is ignored (capacity, Disciplines, etc.). The advanced card
-> applies in full. If the advanced card conflicts with the base card (a
-> different sect, for example), the advanced card has precedence. Some
-> merged cards have an additional effect that only applies if the card
-> is merged with its base card. Such an effect is identified in the
-> card text by a merged icon.
-
-![](bin/media/image45.gif)
-
-> The advanced vampire (merged or not) will contest other copies of the
-> same vampire (advanced or not) in play, as usual.
-
-
-</details>
-
-<details>
-
-<summary>Elder Format</summary>
-
-> **ADVANCED RULES**
-> 
-> You may use a discard phase action to put an **event card** into play
-> but no more than one per phase. 
->
-> Each event card may only be played once each game.
-
-</details>
-
-
-
 
 # [**1. Introduction**](https://www.vekn.net/rulebook/1-introduction)
 
@@ -765,6 +604,54 @@ region and contested cards are not.
 eligible targets are defined in their card texts. 
 Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
 
+### **Contestation:**
+\
+**Unique:** Some of the cards in the game represent unique resources, such as specific locations, equipment, or people. All crypt cards represent unique minions. Vampires are unique, by default.
+All other cards will be identified as "unique" in their card text. Some titles are unique, too. For example, there can be only one ruler (prince or baron) of a particular city. Only one copy of a unique card can be in play at a time. If
+another Methuselah puts a copy of the card into play, the copies will be contested (and out of play) until all but one is yielded
+(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
+\
+Some titles are unique. For example, there can be only one prince or
+baron of a particular city (see [**Vampiric Sects**](https://www.vekn.net/rulebook/6-vampire-sects)).
+If more than one vampire in play claims the same unique title, then the
+title is contested. 
+\
+**Constested Cards**\
+\
+For the duration of the contest, all of the
+contested cards are turned face down and are out of play. If another
+unique card with the same name is brought into play, it is
+immediately contested and turned face down as well.\
+\
+The **cost to contest a card is 1 pool**, which you pay during each of
+your unlock phases. Instead of paying the cost to contest the card,
+you may choose to yield the card. A yielded card is burned. Any cards
+or counters stacked on the yielded card are also burned. If all other
+cards contesting your unique card are yielded, then the card is
+unlocked and turned face up during your next unlock phase, ending the
+contest.\
+\
+**Contested Titles**\
+\
+While the title is being contested, the vampires
+involved in the contest are treated as if they have no title, but
+they remain controlled and may act and block as normal.\
+\
+The **cost to contest a title is 1 blood**, which is paid by the vampire
+during each of their unlock phases. Instead of paying the cost to
+contest the title, the vampire may choose to yield the title (or may
+be forced to yield, if they have no blood to pay). Only ready
+vampires can contest titles. Vampires in torpor must yield during the
+unlock phase.\
+\
+If all other vampires contesting a title with your vampire have
+yielded the contest, then your vampire acquires the title during your
+next unlock phase, ending the contest.\
+\
+The vampire yielding the title will now have no title and loses the
+benefits of the title for the remainder of the game.
+
+
 ### **IMPORTANT TERMS IN THE GAME**
 
 **Locking and Unlocking:** During play, you will turn cards sideways 90º
@@ -788,12 +675,6 @@ using those effects.\
 **Burn:** When a card is burned, it is placed into its owner's ash heap. When a counter is burned, it is returned to the blood bank.
 When a card is burned or removed from the game, any counters or other
 cards on it are burned.\
-\
-**Unique:** Some of the cards in the game represent unique resources, such as specific locations, equipment, or people. All crypt cards represent unique minions. 
-All other cards will be identified as "unique" in their card text. Some titles are unique, too. For example, there can be only one ruler (prince or baron) of a particular city. Only one copy of a unique card can be in play at a time. If
-another Methuselah puts a copy of the card into play, the copies will be contested (and out of play) until all but one is yielded
-(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
-Vampires are unique, by default.\
 \
 **Wake:** A vampire that wakes during an action can attempt to block
 that action and/or play reaction cards as though unlocked for the
@@ -906,10 +787,16 @@ there are other effects that are resolved during the unlock phase:
 
 - If you have the **Edge**, you may gain 1 pool from the blood bank.\
 - If a **card you control is contested**, you may decide to continue the 
-contest.\
+contest. The cost for the constest is 1 pool.\
 - If a **title of a vampire you control is contested**, you may decide to 
-continue the contest.
+continue the contest. The cost for the contest is 1 blood.\
 
+> **REMINDER**\
+> A contested card is turned face down and out of play for the duration of the contest. A contested title means none of the vampires can use their votes or play cards requirering the title.
+
+<details>
+
+ <summary>MOVED?</summary>	
 > **ADVANCED RULES**\
 > \
 > **Contested Cards**\
@@ -954,7 +841,7 @@ continue the contest.
 > \
 > The vampire yielding the title will now have no title and loses the
 > benefits of the title for the remainder of the game.
-
+</details>
 
 ## **2. MASTER PHASE**
 *A master phase action represents your personal activity during the turn as 
@@ -1733,21 +1620,6 @@ burned.
 > Discipline card increases the diablerist's capacity, the diablerie
 > does not give 1 blood to fill that new capacity.\
 
-
-<details>
-
-<summary>Elder Format</summary>
- 
-> 3c. If the victim was Red List, the diablerist may receive trophies
-> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
-> The steps of diablerie are treated as a single unit. No effects can
-> be used to interrupt the diablerie; effects may be played either
-> before or after, as appropriate.
-
-
-</details>
-
-
 **4.** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
 In a blood hunt referendum, action modifiers and reaction cards cannot be played. Otherwise, this referendum is handled just like any other.
 
@@ -2088,22 +1960,6 @@ damage, leaving her with 4 blood.*
 > during the current round of combat. The equipment is kept by the
 > stealing minion after combat ends.
 
-
-<details>
-<summary>Elder Format</summary>
- 
-> **First Strike:** A strike done with first strike is resolved before a normal strike. Thus, if the opposing minion is burned or sent to
-> torpor by a strike done with first strike, their strike will not be
-> resolved at all. If the opposing minion was striking with a weapon
-> that is stolen or destroyed with first strike, then the opposing
-> minion simply loses their strike altogether. If both minions strike
-> with first strike, then the strikes are resolved simultaneously. A
-> strike done with first strike will still not resolve before a combat
-> ends effect (which always resolves first), and a dodge still works
-> against the effects of a strike done with first strike.
-
-</details>
-
 **5. Damage Resolution**
 
 Damage resolution has two steps: prevent damage and mend damage.\
@@ -2321,35 +2177,6 @@ and Justine gets 6 pool and another victory point. Since Justine was not
 ousted at all, she gets an additional victory point. The final score is
 that Justine wins with 3 victory points, with Richard and Scott having 1
 victory point, and Lisa and Steve with 0 victory points.*
-</details>
-
-
-<details>
-<summary>Tournament Rules</summary>
- 
-> **ADVANCED RULES**\
-> \
-> **Withdrawing from the Game**\
-> \
-> You can also end your participation in the game by declaring your
-> intent to withdraw from it. If you have exhausted your library and
-> begin your turn with less than a full hand, you have the option to
-> withdraw from the game. To exercise this option, you must announce
-> your intent to withdraw during your unlock phase. For the withdrawal
-> to succeed, you must meet the following conditions:
-> - None of your minions enter combat until your next unlock phase.
-> - None of your minions lose (or spend) any blood until your next unlock phase.
-> - You do not lose (or spend) any pool until your next unlock phase.
->
-> If you have met these conditions when you would start your unlock
-> phase, you successfully withdraw. The withdrawal fails if you lose a
-> single blood or pool counter, even if you also gain enough to make up
-> for the loss.\
-> \
-> If you successfully withdraw, you receive **0.5** victory points to add to
-> any victory points you have already gained. Your predator does not
-> get 1 victory point or any pool for your withdrawal.
-
 </details>
 
 # Deck Construction
@@ -2736,6 +2563,125 @@ There may be other Traits that allow vampires and minions to play cards.
 
 ![](bin/media/image119.png) Pool Cost
 
+# ADVANCED RULES
+
+## CARD TYPES
+
+**Advanced:** An advanced card is a type of vampire card for your
+crypt. An advanced card looks just like a regular crypt card except
+that it has an Advanced icon under the clan icon. The advanced card
+is a vampire card in all respects, so it can be influenced in the
+normal manner (see [**Advanced**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#advanced)).
+
+![](bin/media/image13.png)
+
+
+**Event Cards:** Event cards are put into play during the discard phase
+to represent events that affect the World of Darkness as a whole.
+
+**Trophy:** A trophy may be put into play using a master phase action (or can be retrieved as described in traits: [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
+It has no effect until it is moved to a vampire. Once placed on a vampire, a trophy is controlled by the controller of the vampire it is on, and it cannot be awarded again.
+
+**Reflex cards** A minion can play a reflex card to cancel a specified kind of card played against them as it is played (see [**Playing a Card**](https://www.vekn.net/rulebook#playing-a-card)).
+
+
+![](bin/media/image28.png)
+
+## Requirements for Playing Cards
+
+**cost** insert mathematics 
+
+**imitate effects:** A minion with the corresponding card text can imitate a requirement if they "can play cards as" or "can use cards as" they were from a certain clan or sect, would have a title or would have the discipline on the indicated level.
+To be able to play a card which has several requirements, e.g. a title and a clan; the minion needs to imitate all requirements they lack. If a title belongs to a sect (e.g. Prince), they are treated as if they were from the corresponding sect.
+Cards are playable via imitation effects only if their ability matches with the necessary requirements literally.
+
+## Unlock Phase
+
+**Burn Option:** Some cards have a burn option icon. This icon means that a Methuselah who does not control a minion who meets the requirements of this card or is not a legal target, may discard it during ANY
+Methuselah's unlock phase and replace it. Each Methuselah is limited to one such discard each unlock phase.
+
+## Master Phase
+**Red List:** You can use a master phase action to mark a Red List minion (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
+
+## Minion Phase
+
+**Diablerie** If the victim was Red List, the diablerist may receive trophies (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
+The steps of diablerie are treated as a single unit. No effects can be used to interrupt the diablerie; effects may be played either before or after, as appropriate.
+
+**Out of turn acting:** if a methuselah controls minions which can act during other methuselah's turns, they can actions after that methuselah does not want to take further actions. 
+
+**Combat:**\
+**First Strike:** A strike done with first strike is resolved before a normal strike. Thus, if the opposing minion is burned or sent to
+torpor by a strike done with first strike, their strike will not be
+resolved at all. If the opposing minion was striking with a weapon
+that is stolen or destroyed with first strike, then the opposing
+minion simply loses their strike altogether. If both minions strike
+with first strike, then the strikes are resolved simultaneously. A
+strike done with first strike will still not resolve before a combat
+ends effect (which always resolves first), and a dodge still works
+against the effects of a strike done with first strike.
+
+
+## Influence Phase
+
+**Advanced:** An advanced card is a type of vampire card for your crypt. An advanced card has a special icon under the clan icon. The advanced card is a vampire card in all respects, so it can be
+influenced in the normal manner. In addition, if you already control
+the advanced or the associated regular "base" vampire and the other
+version of the vampire is in your uncontrolled region, then you can
+spend 4 transfers and 1 pool counter to move the vampire card from
+your uncontrolled region to the controlled vampire card (place the
+advanced card on top of the base card). The two cards effectively
+merge to form a single vampire.
+
+![](bin/media/image13.png)
+
+The particulars of this merge are as follows. The counters and cards
+on the vampire already in play remain, but any counters or cards (if
+any) on the vampire coming from the uncontrolled region are burned.
+The advanced and the base card are treated as a single vampire card,
+even if sent to the uncontrolled region somehow, until the vampire is
+burned. Any effects in play that targeted the vampire now target the
+merged version.\
+\
+When merged, the text on the base card still applies, but the rest of
+the card is ignored (capacity, Disciplines, etc.). The advanced card
+applies in full. If the advanced card conflicts with the base card (a
+different sect, for example), the advanced card has precedence. Some
+merged cards have an additional effect that only applies if the card
+is merged with its base card. Such an effect is identified in the
+card text by a merged icon.
+
+![](bin/media/image45.gif)
+
+The advanced vampire (merged or not) will contest other copies of the
+same vampire (advanced or not) in play, as usual.
+
+## Discard Phase
+
+You may use a discard phase action to put an **event card** into play but no more than one per phase. Each event card may only be played once each game.
+
+## Ending the Game
+
+**Withdrawing from the Game**\
+\
+You can also end your participation in the game by declaring your
+intent to withdraw from it. If you have exhausted your library and
+begin your turn with less than a full hand, you have the option to
+withdraw from the game. To exercise this option, you must announce
+your intent to withdraw during your unlock phase. For the withdrawal
+to succeed, you must meet the following conditions:
+- None of your minions enter combat until your next unlock phase.
+- None of your minions lose (or spend) any blood until your next unlock phase.
+- You do not lose (or spend) any pool until your next unlock phase.
+
+If you have met these conditions when you would start your unlock
+phase, you successfully withdraw. The withdrawal fails if you lose a
+single blood or pool counter, even if you also gain enough to make up
+for the loss.\
+\
+If you successfully withdraw, you receive **0.5** victory points to add to
+any victory points you have already gained. Your predator does not
+get 1 victory point or any pool for your withdrawal.
 
 
 # [**8.Glossaries**](https://www.vekn.net/rulebook/8-glossaries)
