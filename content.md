@@ -1325,7 +1325,7 @@ Underbridge Stray, from her hand. She locks The Dowager and plays the
 Underbridge Stray, announcing: "The Dowager recruits the Underbridge
 Stray at +1 stealth, costing The Dowager 1 blood." (The blood is not
 paid until the action succeeds.)*
-
+</details>
 
 **2. As the action is announced**\
 Directly after the announcement of an action, methuselahs get the opportunity to play cards or use effects "as the action is announced". After every Methuselah declined to play a card or generate an effect while holding the impulse, this step concludes.\
