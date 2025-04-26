@@ -1179,7 +1179,7 @@ different controllers.
 
 
 
-## **SUMMARY OF THE COURSE OF AN ACTION**
+## **INTERACTIONS OVER THE COURSE OF AN ACTION**
 *A main aspect of the game is your minions interacting in the World of Darkness, to reduce other Methuselah’s influence directly or indirectly. But of course, to succeed in their efforts minions must face the opposing methuselah’s henchmen.*\
 \
 Other Methuselah(s) may try to block the action with any of their ready unlocked minions. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth. 
@@ -1230,27 +1230,6 @@ may begin attempting to block.*
 > REMINDER\
 > Political actions, equip actions, employ retainer actions, recruit ally actions are always undirected. 
 
-> **FAILING ACTIONS**\
-> \
-> Some cards can make actions **fail**. Actions that fail are similar to actions that have been blocked except that
-> there is no blocker and no combat. Only cards playable "after action resolution" can still be played.
-
-
-### **OVERVIEW**
-
-An action is performed in seven steps:
-
-**1. Action is announced**: Declare a basic action, play an action card from hand, or use an action provided by a card in play and lock the minion who is performing the action.\
-**2. As the action is announced** Following the announcement of an action, Methuselahs have the opportunity to play cards and use effects "as the action is announced." This process follows normal sequencing rules.  After each Methuselah declines to play a card or generate an effect, this step concludes.\
-**3. Modifications to the action**
- Action modifiers and reaction cards can be played during an action at any time after the action has been announced until its resolution. Both can alter properties of the action, like action modifiers to increase the bleed amount further (e.g. Conditioning) or reactions to reduce the bleed amount (e.g. Protected District). The effect of an action modifier or a reaction card lasts for the duration of the current action.\
-**4.Evaluation of block attempts** To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept after every methuselah has passed on the opportunity to use another effect. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth.\
-**5. Modifications after blocks are declined** If no block attempt was successful or if all Methuselahs have declined to block, there is another opportunity to play cards or use effects before the action resolution step\
-**6. Action resolution** Actions are successful when unblocked.  All costs are paid and the effects of the action, including any modifications made, are simultaneously applied.  If the action was blocked, it is unsuccessful and the combat initiated by block resolution becomes the action's resolution.\
-**7. After action resolution** This is considered the final step of the action. After all effects are handled, there is a chance to play cards which are only usable after action resolution. If an action card was used, it is now burned.
- 
-
-
 ### **Stealth and Intercept**
 
 ***Stealth*** *represents the measures that the acting minion is taking to
@@ -1283,6 +1262,28 @@ increase or decrease (even > below 0) a minion's stealth or intercept, as noted 
 Note that all modifications made to a minion's stealth or intercept
 remain in effect for the duration of the action. Increased stealth and
 intercept return to normal after the action is resolved.
+
+
+### **SUMMARY OF THE COURSE OF AN ACTION**
+
+An action is performed in seven steps:
+
+**1. Action is announced**: Declare a basic action, play an action card from hand, or use an action provided by a card in play and lock the minion who is performing the action.\
+**2. As the action is announced** Following the announcement of an action, Methuselahs have the opportunity to play cards and use effects "as the action is announced." This process follows normal sequencing rules.  After each Methuselah declines to play a card or generate an effect, this step concludes.\
+**3. Modifications to the action**
+ Action modifiers and reaction cards can be played during an action at any time after the action has been announced until its resolution. Both can alter properties of the action, like action modifiers to increase the bleed amount further (e.g. Conditioning) or reactions to reduce the bleed amount (e.g. Protected District). The effect of an action modifier or a reaction card lasts for the duration of the current action.\
+**4. Evaluation of block attempts** To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept after every methuselah has passed on the opportunity to use another effect. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth.\
+**5. Modifications after blocks are declined** If no block attempt was successful or if all Methuselahs have declined to block, there is another opportunity to play cards or use effects before the action resolution step\
+**6. Action resolution** Actions are successful when unblocked.  All costs are paid and the effects of the action, including any modifications made, are simultaneously applied.  If the action was blocked, it is unsuccessful and the combat initiated by block resolution becomes the action's resolution.\
+**7. After action resolution** This is considered the final step of the action. After all effects are handled, there is a chance to play cards which are only usable after action resolution. If an action card was used, it is now burned.
+ 
+
+> **FAILING ACTIONS**\
+> \
+> Some cards can make actions **fail**. Actions that fail are similar to actions that have been blocked except that
+> there is no blocker and no combat. Only cards playable "after action resolution" can still be played.
+
+
 
 <details>
 <summary>Sequencing - maybe move to Block resolution?</summary>	
