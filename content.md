@@ -1269,12 +1269,18 @@ intercept return to normal after the action is resolved.
 An action is performed in seven steps:
 
 **1. Action is announced**: Declare a basic action, play an action card from hand, or use an action provided by a card in play and lock the minion who is performing the action.\
+\
 **2. As the action is announced** Following the announcement of an action, Methuselahs have the opportunity to play cards and use effects "as the action is announced." This process follows normal sequencing rules.  After each Methuselah declines to play a card or generate an effect, this step concludes.\
+\
 **3. Modifications to the action**
  Action modifiers and reaction cards can be played during an action at any time after the action has been announced until its resolution. Both can alter properties of the action, like action modifiers to increase the bleed amount further (e.g. Conditioning) or reactions to reduce the bleed amount (e.g. Protected District). The effect of an action modifier or a reaction card lasts for the duration of the current action.\
+\
 **4. Evaluation of block attempts** To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept after every methuselah has passed on the opportunity to use another effect. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth.\
+\
 **5. Modifications after blocks are declined** If no block attempt was successful or if all Methuselahs have declined to block, there is another opportunity to play cards or use effects before the action resolution step\
+\
 **6. Action resolution** Actions are successful when unblocked.  All costs are paid and the effects of the action, including any modifications made, are simultaneously applied.  If the action was blocked, it is unsuccessful and the combat initiated by block resolution becomes the action's resolution.\
+\
 **7. After action resolution** This is considered the final step of the action. After all effects are handled, there is a chance to play cards which are only usable after action resolution. If an action card was used, it is now burned.
  
 
@@ -1285,32 +1291,7 @@ An action is performed in seven steps:
 
 
 
-<details>
-<summary>Sequencing - maybe move to Block resolution?</summary>	
-
-#### **SEQUENCING**
-
-> The action has been announced and:
-> 
-> A. There is no current block attempt
-> 1. the sequencing rule applies as normal
-> 2. in addition to any effect that can be used during an action (playing an action modifier or reaction card, using effects of cards in play etc.), a Methuselah who can block (see Who May Attempt to Block) can declare a block attempt, switching to "B. There is an ongoing block attempt"
-> 3. if a Methuselah passes, that Methuselah cannot declare any block attempt until the end of the action unless the target of the action changes.
-> 4. once every Methuselah has passed, switch to "C. Blocks have been declined by all Methuselahs"
-> 
-> B. There is an ongoing block attempt
-> 1. the sequencing rule applies as normal
-> 2. the target of the action cannot be changed
-> 3. the Methuselah who has declared the current block attempt may use effects that force the currently blocking to attempt to block (no other minion can attempt to block until this block attempt is resolved)
-> 4. once every Methuselah has passed, the block attempt is resolved: if it is successful, the action is unsuccessful and blocked. Otherwise, switch back to "A. There is no current block attempt"
-> 
-> C. Blocks have been declined by all Methuselahs
-> 1. the sequencing rule applies as normal
-> 2. if the target of the action is changed, switch to "A. There is no current block attempt"
-> 3. once every Methuselah has passed, the action is successful and resolves
-
-
-</details>
+<
 
 ### DETAILED COURSE
 
@@ -1345,47 +1326,53 @@ Underbridge Stray, announcing: "The Dowager recruits the Underbridge
 Stray at +1 stealth, costing The Dowager 1 blood." (The blood is not
 paid until the action succeeds.)*
 
-</details>
 
-> **ADVANCED RULES**
-> Cards that are played "as the action is announced” must be played during this step,
-> before regular action modifier cards and reaction cards.
+**2. As the action is announced**\
+Directly after the announcement of an action, methuselahs get the opportunity to play cards or use effects "as the action is announced". After every Methuselah declined to play a card or generate an effect while holding the impulse, this step concludes.\
+\
+**3. Modifications to the action**\
+\
+Action modifiers and reaction cards can be played during an action at any time after the action has been announced until its resolution. Both can alter properties of the action, like action modifiers to increase the bleed amount further (e.g. Conditioning) or reactions to reduce the bleed amount (e.g. Protected District). The effect of an action modifier or a reaction card lasts for the duration of the current action. Additionally, some cards and other effects can be used to increase or decrease (even below 0) a minion's stealth or intercept, as noted on card text.
+Stealth can be added during an action only when needed, that is, only if the action is currently being blocked and the blocking minion has enough intercept to block the acting minion. Likewise, intercept can be added during an action only when needed, only by a blocking minion when the acting minion's stealth exceeds their intercept.
+Note that all modifications made to a minion's stealth or intercept remain in effect for the duration of the action. Increased stealth and intercept return to normal after the action is resolved.\
+\
+**4. Evaluation of block attempts**\ 
+\
+To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth.\
+\
+**5. After blocks are declined**\
+If all Methuselahs have declined to block, there is another opportunity to modify the action, play cards or use effects before the action resolution step. If the action has been blocked, this step is skipped.
 
-#### **2. Resolve Any Block Attempts**
+Alexis decides not to block, so then Sarah plays Bonding (an action modifier that adds 1 to the bleed). Alexis is bled for 2 pool.\
+\
+**6. Action resolution**\
+\
+If no attempt is successful and no more attempts are made, then the action is successful, and the cost of the action is paid.\
+\
+There are three ways how an action can be resolved: If the action is blocked, combat ensues between the acting and blocking minion.
 
-A minion can attempt to block as many times as they wish as long as another minion is not already blocking. 
-If one attempt to block fails, another can be made as often as the blocking Methuselah wishes. 
-Once a Methuselah decides not to make any further attempts to block, that decision is final.
-If the target of the action is changed (e.g. a bleed action is redirected), this will reopen block attempts, following the normal rules.
+> **ENDING AN ACTION**\
+> If an effect **ends the action** after block resolution, that makes the action end unsuccessfully.
+> Actions that are ended are over: action modifiers and reactions cannot be played anymore.
+
+successful action
+the cost of the action is paid and the effects of the successful action take place. For political actions, the referendum takes place.
+successful action with no effect
+If the action cannot take effect, but it has not been blocked, it is still successful. A reason might be that a bleed got reduced to 0 or if the cost of the action cannot be paid in full.
+unsuccessful action / block resolution successful block
+The effects of the action do not take place when the action is blocked; it is unsuccessful. The blocking minion is locked and enters combat with the acting minion (see Combat). The resolution of a blocked action is also called block resolution.
 
 
 
-#### **3. Resolve the Action**
+Action resolution constitutes itself of the payment of the action and the effect, e.g. the referendum, combat or the bleed. The effects are handled after the minion paid for the action. The resolution of the effect constitutes an opportunity to play special modifier or reaction cards. Typically, these read “after bleed resolution”, “after referendum” or “after combat”. 
+If your pool is reduced to 0 (or below), but pool is gained over the course of effect resolution (e.g. Ancient Influences), you are not ousted.
 
-There are three ways how an action can be resolved: 
-
-**successful action**\
-the cost of the action is paid and the effects of the successful action
-take place. For political actions, the referendum takes place.\
-**successful action with no effect**\
-If the action cannot take effect, but it has not been blocked, it is still successful. A reason might be that a bleed got reduced to 0 or if the cost of the action cannot be paid in full.\
-**unsuccessful action / successful block**\
-The effects of the action do not take place when the action is blocked. The blocking minion is locked and enters combat with the acting minion (see [**Combat**](https://www.vekn.net/rulebook#combat)).
 
 > **ACTION FIZZLE**\
 > Although an action cannot be undertaken if its cost or requirements cannot be met, it is possible that those requirements could not be met upon resolution. If an action is successful (ie. not blocked),
 > but its cost cannot be paid or its requirements are no longer met, it fizzles. This is also true if all targets become invalid over the course of the action.\
 > \
 > The actions cost is paid to the extent possible and it has no effect. Effect costs are not paid. It is still considered successful.
-
-
-**4. After Action Resolution**\
-This is considered the final step of the action. After all effects are handeled, there is a chance to play cards which are only usable after action
-resolution. If an action card was used, it is now burned.
-
-> **ENDING AN ACTION**\
-> If an effect **ends the action** after block resoltion, that makes the action end unsuccessfully.
-> Actions that are ended are over: action modifiers and reactions cannot be played anymore.
 
 
 #### **RESOLVING DIABLERIE**
