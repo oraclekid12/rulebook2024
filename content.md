@@ -1374,30 +1374,32 @@ If your pool is reduced to 0 (or below), but pool is gained over the course of e
 > \
 > The actions cost is paid to the extent possible and it has no effect. Effect costs are not paid. It is still considered successful.
 
+**7. After action resolution**\
+\
+This is considered the final step of the action. After all effects are handled, there is a chance to play cards which are only usable after action resolution. If an action card was used, it is now burned. 
+If a methuselah is ousted, their predator is awarded with 6 pool.
+ADVANCED RULES
+If an effect ends the action after block resolution, that makes the action end unsuccessfully. Actions that are ended are over: action modifiers and reactions cannot be played anymore.
+
+
 
 #### **RESOLVING DIABLERIE**
 
 Successful diablerie actions are resolved as follows:
 
-**1.** All blood on the victim is moved to the diablerist. Blood in
+**1. Blood Gain** All blood on the victim is moved to the diablerist. Blood in
 excess of their capacity drains off as normal.
 
-**2.** The diablerist may take any equipment on the victim.
+**2. Equipment Gain** The diablerist may take any equipment on the victim.
 
-**3.** The victim is burned. Any cards and counters on them are also
-burned.
+**3. Burn Vampire** The victim is burned. Any cards and counters on them are also
+burned. If the victim was older (had a higher capacity) than the
+diablerist, their controller search their library, ash heap, and hand to get a
+master Discipline card to put on the diablerist. If the
+Discipline card increases the diablerist's capacity, the diablerie
+does not give 1 blood to fill that new capacity.
 
-> **ADVANCED RULES**\
-> \
-> 3b. If the victim was older (had a higher capacity) than the
-> diablerist, the diablerist can be given a Discipline: their
-> controller may go through their library, ash heap, and hand to get a
-> master Discipline card to put on the diablerist and then shuffle
-> their library or draw back up to their hand size as necessary. If the
-> Discipline card increases the diablerist's capacity, the diablerie
-> does not give 1 blood to fill that new capacity.\
-
-**4.** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
+**4. Blood Hunt Referendum** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
 In a blood hunt referendum, action modifiers and reaction cards cannot be played. Otherwise, this referendum is handled just like any other.
 
 > This referendum is part of the action which led to a diablerie, so it cannot be blocked.
@@ -1412,21 +1414,20 @@ In a blood hunt referendum, action modifiers and reaction cards cannot be played
 
 If a **political action** is successful, its cost is paid, and the referendum is called. The referendum consists of three steps:
 
-> **1. Choose the terms**, if any, of the referendum.\
-> \
-> **2. Polling:**\
-> \
-> **2.a Before votes and ballots are cast**\
-> Cards that are usable "during the polling step" but "before votes and ballots are cast" are used at this time.\
-> **2.b polling step**\
-> All Methuselahs may then cast any votes and ballots they have (see below) at this time, in any order. They call out their votes and ballots freely, and there is no obligation to cast votes or ballots. 
-> Once a vote or ballot has been cast, however, it cannot be changed. The polling stage is completed only when all Methuselahs are finished casting votes and ballots. 
-> \
-> If you need a time limit, the Methuselahs can agree to wait 15 seconds after the last vote cast to close the polling stage.\
-> \
-> **3. Resolve the Referendum:**\
-> If there are more votes for the referendum than against, it passes, and the effects take place. 
-> Otherwise, the referendum fails and has no effect. Tied referendums fail.
+**1. Choose the terms**, if any, of the referendum.\
+\
+**2. Before votes and ballots are cast**\
+Cards that are usable "during the polling step" but "before votes and ballots are cast" are used at this time.\
+\
+**3. polling step**\
+All Methuselahs may then cast any votes and ballots they have (see below) at this time, in any order. They call out their votes and ballots freely, and there is no obligation to cast votes or ballots. 
+Once a vote or ballot has been cast, however, it cannot be changed. The polling stage is completed only when all Methuselahs are finished casting votes and ballots. 
+\
+If you need a time limit, the Methuselahs can agree to wait 15 seconds after the last vote cast to close the polling stage.\
+\
+**4. Resolve the Referendum:**\
+If there are more votes for the referendum than against, it passes, and the effects take place. 
+Otherwise, the referendum fails and has no effect. Tied referendums fail.
 
 
 **Gaining Votes**\
@@ -1467,9 +1468,8 @@ the title.
 
 
 
-
-
-> **ADVANCED RULES**\
+> **VOTE GAIN ABILITIES**\
+> \
 > A minion may have a special ability granting **additional** votes or ballots without being titled themselves.\
 > \
 > Other minions may have a title worth votes or ballots (as listed on card text) without holding one of the titles listed above.
@@ -1707,6 +1707,19 @@ The stolen blood can be used to mend damage even if the damage is inflicted
 simultaneously. If the stolen blood causes the striking vampire to have
 more blood than their capacity, the excess drains off immediately.
 
+**Destroy Equipment:** This effect burns an equipment card of the
+opposing minion. If there is more than one piece of equipment on the
+opposing minion, the striking minion chooses which one is burned. The
+equipment can still be used up to the point at which the destroy
+equipment strike resolves. The effect may specify destroy weapon
+instead of equipment, in which case a weapon must be chosen.
+
+**Steal Equipment:** This effect is like destroy equipment, except
+that instead of being burned, the equipment card is moved to the
+striking minion. The stolen equipment may not be used by the bearer
+during the current round of combat. The equipment is kept by the
+stealing minion after combat ends.
+
 <details>
 <summary>EXAMPLE</summary>	
  
@@ -1722,20 +1735,6 @@ deal with and does not prevent any, so she burns 1 blood to mend the
 damage, leaving her with 4 blood.*
 </details>
 
-> **ADVANCED RULES**
-> 
-> **Destroy Equipment:** This effect burns an equipment card of the
-> opposing minion. If there is more than one piece of equipment on the
-> opposing minion, the striking minion chooses which one is burned. The
-> equipment can still be used up to the point at which the destroy
-> equipment strike resolves. The effect may specify destroy weapon
-> instead of equipment, in which case a weapon must be chosen.
-> 
-> **Steal Equipment:** This effect is like destroy equipment, except
-> that instead of being burned, the equipment card is moved to the
-> striking minion. The stolen equipment may not be used by the bearer
-> during the current round of combat. The equipment is kept by the
-> stealing minion after combat ends.
 
 **5. Damage Resolution**
 
@@ -1788,8 +1787,8 @@ vampire cannot mend all the damage (that is, more damage is successfully inflict
 than they have blood with which to mend), they burn blood to mend what
 damage they can, and the unmended damage leaves them wounded.
 
-> **ADVANCED RULES**
-> 
+> **ALLIES AND RETAINERS**\
+> \
 > Allies and retainers treat aggravated damage the same as non-aggravated
 > damage. For each point of damage successfully inflicted on an ally
 > or retainer, they burn 1 life counter. An ally or retainer who loses
@@ -1830,7 +1829,7 @@ If there is an uncancelled press to continue, another round of combat begins.
 In this step you use the combat cards or other effects that are only
 usable at the end of a round of combat, after the press step.
 
-> **Reminder**
+> **REMINDER**\
 > This step occurs even if combat ends prematurely.
 
 
@@ -1863,7 +1862,8 @@ uncontrolled region to your pool.
 - Spend 4 transfers and burn 1 pool to move a vampire from your crypt to
 your uncontrolled region.
 
-> **Advanced Rules**
+> **THE FIRST TURNS**\
+> \
 > To balance the advantage of going first, Methuselahs do not receive
 > the full allotment of transfers during the first three turns of the game.
 > Instead, the Methuselah who has the first turn receives only 1 transfer on
