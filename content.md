@@ -538,7 +538,8 @@ Some actions cannot be repeated more than once per turn by the same minion, even
 * A vampire cannot perform more than **one political action** 
 * A minion cannot perform more than one action with the **same named action card from hand**
 * A minion cannot perform each action via the **same copy of a card in play** (including from the minion’s own card text) more than once each turn.
-* An ally can perform actions first in the turn after they are recruited. 
+* An ally can perform actions first in the turn after they are recruited.
+* Your minions cannot enter combat with other minions you control.
 
 **Action modifier cards:**\
 An acting minion cannot play the **same action modifier** card more than once during a single
@@ -1286,18 +1287,9 @@ An action is performed in seven steps:
 
 ### DETAILED COURSE
 
-#### **1. Announce the Action**
-
-When announcing an action, the acting minion gets locked. (only ready unlocked minions can perform actions). Also, all details of the action are defined when the action is announced, which includes:
-- the target(s),
-- the cost
-- the effects, and so on. 
-
-Any card required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. 
-
-> The action's cost, if any, is only paid if the action succeeds; the cost is not paid if the action is blocked.
-> The costs of action modifiers and reaction cards are always paid when the cards are played, regardless of the
-> success of the action.
+**1. Announce the Action**\
+All details of the action are defined when the action is announced, including the target(s), the cost, the effects, and so on. Any card required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. 
+Lock the acting minion (only ready unlocked minions can perform actions).
 
 **EXCEPTION:** Any decisions to be made for a referendum, including terms, are not announced 
 until the action succeeds 
@@ -1322,41 +1314,33 @@ paid until the action succeeds.)*
 Directly after the announcement of an action, methuselahs get the opportunity to play cards or use effects "as the action is announced". After every Methuselah declined to play a card or generate an effect while holding the impulse, this step concludes.\
 \
 **3. Modifications to the action**\
-\
 Action modifiers and reaction cards can be played during an action at any time after the action has been announced until its resolution. Both can alter properties of the action, like action modifiers to increase the bleed amount further (e.g. Conditioning) or reactions to reduce the bleed amount (e.g. Protected District). The effect of an action modifier or a reaction card lasts for the duration of the current action. Additionally, some cards and other effects can be used to increase or decrease (even below 0) a minion's stealth or intercept, as noted on card text.
 Stealth can be added during an action only when needed, that is, only if the action is currently being blocked and the blocking minion has enough intercept to block the acting minion. Likewise, intercept can be added during an action only when needed, only by a blocking minion when the acting minion's stealth exceeds their intercept.
 Note that all modifications made to a minion's stealth or intercept remain in effect for the duration of the action. Increased stealth and intercept return to normal after the action is resolved.\
 \
 **4. Evaluation of block attempts**\ 
-\
 To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth.\
 \
 **5. After blocks are declined**\
 If all Methuselahs have declined to block, there is another opportunity to modify the action, play cards or use effects before the action resolution step. If the action has been blocked, this step is skipped.
 
 Alexis decides not to block, so then Sarah plays Bonding (an action modifier that adds 1 to the bleed). Alexis is bled for 2 pool.\
-\
-**6. Action resolution**\
-\
-If no attempt is successful and no more attempts are made, then the action is successful, and the cost of the action is paid.\
-\
-There are three ways how an action can be resolved: If the action is blocked, combat ensues between the acting and blocking minion.
 
 > **ENDING AN ACTION**\
 > If an effect **ends the action** after block resolution, that makes the action end unsuccessfully.
 > Actions that are ended are over: action modifiers and reactions cannot be played anymore.
 
-successful action
-the cost of the action is paid and the effects of the successful action take place. For political actions, the referendum takes place.
-successful action with no effect
-If the action cannot take effect, but it has not been blocked, it is still successful. A reason might be that a bleed got reduced to 0 or if the cost of the action cannot be paid in full.
-unsuccessful action / block resolution successful block
-The effects of the action do not take place when the action is blocked; it is unsuccessful. The blocking minion is locked and enters combat with the acting minion (see Combat). The resolution of a blocked action is also called block resolution.
 
+**6. Action resolution**\
+Action resolution constitutes itself of the payment of the action and the effect, e.g. the referendum, combat or the bleed. The effects are handled after the minion paid for the action. The resolution of the effect constitutes an opportunity to play special modifier or reaction cards. 
+Typically, these read “after bleed resolution”, “after referendum” or “after combat”.  If your pool is reduced to 0 (or below), but pool is gained over the course of effect resolution (e.g. Ancient Influences), you are not ousted. The resolution of a blocked action is also called block resolution.
+\
+There are three ways how an action can be resolved: 
 
-
-Action resolution constitutes itself of the payment of the action and the effect, e.g. the referendum, combat or the bleed. The effects are handled after the minion paid for the action. The resolution of the effect constitutes an opportunity to play special modifier or reaction cards. Typically, these read “after bleed resolution”, “after referendum” or “after combat”. 
-If your pool is reduced to 0 (or below), but pool is gained over the course of effect resolution (e.g. Ancient Influences), you are not ousted.
+* **successful action:** the cost of the action is paid and the effects of the successful action take place. For political actions, the referendum takes place.
+* **successful action with no effect:** If the action cannot take effect, but it has not been blocked, it is still successful. A reason might be that a bleed got reduced to 0 or if the cost of the action cannot be paid in full.
+* **block resolution:** The effects of the action do not take place when the action is blocked; it is unsuccessful. 
+The blocking minion is locked and enters combat with the acting minion (see Combat).
 
 
 > **ACTION FIZZLE**\
@@ -1369,8 +1353,6 @@ If your pool is reduced to 0 (or below), but pool is gained over the course of e
 \
 This is considered the final step of the action. After all effects are handled, there is a chance to play cards which are only usable after action resolution. If an action card was used, it is now burned. 
 If a methuselah is ousted, their predator is awarded with 6 pool.
-ADVANCED RULES
-If an effect ends the action after block resolution, that makes the action end unsuccessfully. Actions that are ended are over: action modifiers and reactions cannot be played anymore.
 
 
 
@@ -1384,13 +1366,15 @@ excess of their capacity drains off as normal.
 **2. Equipment Gain** The diablerist may take any equipment on the victim.
 
 **3. Burn Vampire** The victim is burned. Any cards and counters on them are also
-burned. If the victim was older (had a higher capacity) than the
-diablerist, their controller search their library, ash heap, and hand to get a
+burned. 
+
+**4. Get Discipline** If the victim was had a higher capacity (is older) than the
+diablerist, their controller may search their library, ash heap, and hand to get a
 master Discipline card to put on the diablerist. If the
 Discipline card increases the diablerist's capacity, the diablerie
 does not give 1 blood to fill that new capacity.
 
-**4. Blood Hunt Referendum** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
+**5. Blood Hunt Referendum** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
 In a blood hunt referendum, action modifiers and reaction cards cannot be played. Otherwise, this referendum is handled just like any other.
 
 > This referendum is part of the action which led to a diablerie, so it cannot be blocked.
@@ -1467,29 +1451,28 @@ the title.
 > Ballots are votes used only by **Priscus** (see [**Other Vampire Sects**](https://www.vekn.net/rulebook/7-legacy-sets#other-vampire-sects)).
 
 
-### **Combat**
+#### **COMBAT**
 *Combat results when a minion blocks the action of a ready minion. Also, some cards may cause combat.
 The two minions being involved in combat are called **combatants**; each one of
 them is considered to be **opposing** the other one.*
-\
+
 > Combat is always part of action resolution.\
-> Being locked or unlocked does not matter for combat. Locked minions fight just the same as unlocked minions.
+> Being locked or unlocked does not matter for combat. Locked minions fight just the same as unlocked minions.\
+> The only minion cards that can be played during combat are combat cards.
 
-**General Combat Rules:**
-- Only ready minions can participate in combat.
-- Your minions cannot enter combat with other minions you control.
-- If one or both of the combatants are wounded, combat ends and no cards to continue combat can be played.
-- Whenever combat ends prematurely, all remaining steps are skipped until the End of Round step. 
-- The only minion cards that can be played during combat are combat cards.
+Only **ready** minions can participate in combat. Whenever combat ends prematurely, all remaining steps are skipped until the End of Round step (e.g. a Strike: Combat Ends has been played). 
+If at any time one or both of the combatants are wounded, combat ends and no cards to continue combat can be played. If a combat card played by a minion has a maneuver or press as part of an effect,
+they **must** be used that round of combat. If a combat card played by a minion has an "optional maneuver" or an "optional press" as part of the effect, then the
+minion may decline to use the effect.\
+A vampire who has received damage that they have not mended or a vampire in torpor or on their way to torpor is said to be wounded.
 
-If a combat card played by a minion has a maneuver or press as part of an effect,
-they must be used that round of combat. If a combat card played
-by a minion has an "optional maneuver" or an "optional press" as part of the effect, then the
-minion may decline to use the effect.
-
-> **REMINDER:**\
-> A vampire who has received damage that they have not mended
-> or a vampire in torpor or on their way to torpor is said to be wounded.
+> **RETAINERS IN COMBAT**\
+> A retainer is not normally harmed in combat, unless the minion employing
+> it is burned. However, an attacker can choose to target one of the
+> opposing minion's retainers with a strike rather than striking at the
+> opposing minion. This can only be done at long range. To target a
+> retainer with a ranged strike, the striking minion must announce their
+> intended target when the strike is announced.
 
 **Basic Combat Terms**
 - **Maneuver:** The efforts of a minion in combat to move away from or to close in on the opposing minion.
@@ -1497,23 +1480,9 @@ minion may decline to use the effect.
 - **Press:** The efforts of a minion in combat to escape from or to give chase to the opposing minion.
 
 
-> **Hand Strike:** When a minion strikes with a hand strike at close range, they do an amount of damage
-> equal to their strength to the opposing minion.\
-> **Dodge:** A strike that protects a minion and the cards on him from an
-> opposing minion's strike. ~~Retainers are not protected.~~\
-> **Combat Ends:** A strike that ends combat before any damage or other
-> strike effects happen.\
-> **Steal Blood:** This effect moves blood counters or life counters from
-> the target to the striking minion.
-
+<details>
+<summary>NEEDED?</summary>	
 \
-
->> **Additional Strikes:** Some cards and effects allow a minion to make
->> additional strikes during the current round of combat.
-
-
-\
-
 > **Different Kinds of Damage**\
 > **Normal damage**: Any damage which is not specified otherwise.\
 > **Environmental damage:** Any damage not inflicted by a minion either as
@@ -1528,21 +1497,15 @@ minion may decline to use the effect.
 \
 **Immune to damage**: if a minion is immune to damage from a source, any unprevented damage from that source that is inflicted on the minion is inflicted unsuccessfully: the minion does not have to burn blood or life to mend the damage or to prevent destruction, nor
 become wounded because of damage.\
+</details>
 
-**Retainers and Combat**\
-A retainer is not normally harmed in combat, unless the minion employing
-it is burned. However, an attacker can choose to target one of the
-opposing minion's retainers with a strike rather than striking at the
-opposing minion. This can only be done at long range. To target a
-retainer with a ranged strike, the striking minion must announce their
-intended target when the strike is announced.
 
-> **ADVANCED RULES**\
+> **NOT INVOLVED IN THE CURRENT COMBAT**\
 > Some combat cards are played by minions "not involved in the current
 > combat". Minions controlled by ANY Methuselah can play those cards.
 
 
-#### **Combat Overview**
+##### **Combat Overview**
 
 Combat occurs in a series of one or more rounds. Each round of combat
 has seven steps:
@@ -1566,7 +1529,7 @@ combat.
 The acting minion always gets first opportunity to use cards or effects
 before the opposing minion at every stage of combat.
 
-#### DETAILED COURSE OF COMBAT
+##### DETAILED COURSE OF COMBAT
 
 **1. Before Range**
 
@@ -1591,11 +1554,14 @@ The range determines which strikes and other strike resolution step effects can 
 effects can only be used at close range, some only at long range, and the rest at either close or long range. 
 The two combatants can continue playing maneuvers to keep offsetting the effects of their opponent's last maneuver for as long as they wish.
 
-> **ADVANCED**\
+> **MANEUVER FROM STRIKE CARD OR WEAPON**\
+> \
 > To use a maneuver from a strike card, the minion plays the strike card during this step instead of
-> during the choose strike step. If a minion uses the maneuver from a
+> during the choose strike step. This also means that the minion has chosen their strike and must use it. If a minion uses the maneuver from a
 > strike card or a weapon, they are choosing their strike as
-> well. As such, they cannot use a second strike card or weapon to
+> well.
+> \
+> As such, they cannot use a second strike card or weapon to
 > maneuver again in the same round.
 
 <details>
@@ -1640,7 +1606,7 @@ strike.
 resolved simultaneously. Note that the effects of a strike are applied and then damage is
 resolved. This timing is important for some special strikes.
 
-> **ADVANCED RULES**\
+> **REMINDER**\
 > \
 > If a strike card is cancelled, the minion who played it must choose a
 > strike, which might come from another strike card.\
@@ -1821,6 +1787,7 @@ In this step you use the combat cards or other effects that are only
 usable at the end of a round of combat, after the press step.
 
 > **REMINDER**\
+> \
 > This step occurs even if combat ends prematurely.
 
 
