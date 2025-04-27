@@ -233,11 +233,12 @@ Master cards are cards you play in your role as a Methuselah.
 
 The general types of master cards are as follows:
 
-**Locations:** A location card represents a place (that is a building, a
+**Regular master card** New description needed (location is a trait)
+~~A location card represents a place (that is a building, a
 city, or a designated gathering place) that a Methuselah or their
 minions control. A location card stays in play and may be used
 repeatedly, even on the turn it is played. Some game effects can burn
-them.
+them.~~
 
 
 
@@ -330,17 +331,6 @@ cards, they can do so even if they are locked.
 **Ally cards:** Allies are minions other than vampires that you as a Methuselah can
 control. These cards are put into play with their starting life
 from the blood bank, and remain independent from the acting minion.\
-\
-Allies cannot act the turn they are recruited.
-
-
-The ally's life represents their blood (to pay costs etc.).
-Any blood they gain or lose as a vampire equates to a gain or loss
-of life for the ally.If the ally gains life in excess of their capacity,
-it does not drain off, and if the effect inflicts aggravated damage on
-the ally, they burn life as normal. However, if the effect would send
-the ally to torpor, they are burned instead.\
-
 
 
 ![](bin/media/image22.png)
@@ -397,12 +387,6 @@ Methuselah.
 
 
 ![](bin/media/image27.png)
-
-
-
-A minion cannot play the same reaction card more than once during a
-single action (even if using a different Discipline level). A reaction
-card does not lock the minion playing it.
 
 
 # [**3. Playing the Game**](https://www.vekn.net/rulebook/3-playing-the-game)
@@ -650,8 +634,7 @@ benefits of the title for the remainder of the game.
 to lock them, indicating that the cards have been used for some
 particular purpose or effect. Unlocking a card restores it to its
 original position, indicating that the card is reset and will be able to
-be locked again later. Only unlocked minions can perform actions or
-block the actions of other minions.
+be locked again later. 
 
 **Control:** Vampires put into play by a Methuselah are controlled by
 that Methuselah. 
@@ -808,6 +791,7 @@ used during this phase are lost.
 Most of the activity in the game occurs in the minion phase. During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs. 
 As your minions' actions are a limited resource, you should consider your strategy carefully. Actions can be used for several purposes like attacking other Methuselahs or their resources. 
 Either attack your prey directly or use political power and negotiate. Minions can also bring permanent resources into play.* 
+
 
 Only **ready unlocked minions** can perform actions. Taking an action **locks** the
 acting minion.\ 
@@ -1066,7 +1050,7 @@ acting minion.
 #### **Recruit Ally**
 *Allies: non-vampire minions, such as mages, werewolves, or ordinary mortals.* \
 \
-An ally is brought into play with the recruit ally action. Allies are action cards that become minions in their own right, capable of acting and blocking independently of the minion that recruits them.
+An ally is brought into play with the recruit ally action. Allies are action cards that become minions in their own right, capable of acting and blocking independently of the minion that recruits them. Allies cannot act the turn they are recruited. 
 When an ally is brought into play, they receive blood counters from the blood bank to represent their life (listed on the ally's card). When an ally loses their last
 life counter, they are burned.
 
@@ -1182,16 +1166,23 @@ different controllers.
 ## **INTERACTIONS OVER THE COURSE OF AN ACTION**
 *A main aspect of the game is your minions interacting in the World of Darkness, to reduce other Methuselah’s influence directly or indirectly. But of course, to succeed in their efforts minions must face the opposing methuselah’s henchmen.*\
 \
-Other Methuselah(s) may try to block the action with any of their ready unlocked minions. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth. 
+When a minion attempts an action, the action can be modified with enhancements or additional properties by playing action modifier cardas or using effects. Other Methuselahs' minions may alter the action by playing reaction cards. A reaction card does not lock the minion playing it.
+Action modifier cards can be used by locked minions.
+Only unlocked minions can perform actions, play reaction cards or block the actions of other minions. 
+\
+Other Methuselah(s) may try to block an action with any of their ready unlocked minions. The action is blocked if the blocker's intercept is equal to or greater than the acting minion's stealth. 
 By default, minions have 0 stealth and 0 intercept. A block attempt will normally succeed unless the action has inherent stealth (such as hunting) or a card or effect is used to increase the acting minion's stealth.
 A block attempt consists of the declaration of a methuselah, who can in turn use several minions which attempt to block. A methuselah needs to declare their intent to block and name the minion who shall make their first block attempt. 
 If a minion could not block the action, because their intercept is lower than the acting minion's stealth and the attempting minion's intercept isn't increased further, a methuselah may name another minion who in turn attempts to block.
 - If a minion's block attempt is unsuccessful, another attempt can be made.
 - If a minion's block attempt is successful, then the blocking minion locks and enters combat with the acting minion.
-If a block attempt fails, either another attempt is made or the defending Methuselah declares that they will not make any further attempts to block the action. Once a Methuselah decides not to make any further attempts to block, that decision is final. If the target of the action is changed (e.g. a bleed action is redirected), this will reopen block attempts, following the normal rules.
+If a block attempt fails, either another attempt is made or the defending Methuselah declares that they will not make any further attempts to block the action. Once a Methuselah decides not to make any further attempts to block, that decision is final.
+If the target of the action is changed (e.g. a bleed action is redirected), this will reopen block attempts, following the normal rules.
 
 A minion can attempt to block as many times as they wish as long as another minion is not already blocking.
 As a reminder, when a card describes an action that is typically directed at another Methuselah, the card's text will usually include a (D) symbol as a reminder that the action is typically directed.
+
+
 
 
 **Who May Attempt to Block**
