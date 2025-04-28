@@ -867,7 +867,9 @@ resolved before another action can be performed. (see [Detailed Course of an Act
 
 
 
-### **Action Card (or Card in Play)**
+### Available Actions
+
+####**Action Card (or Card in Play)**
 Actions can be provided by cards (either action cards or cards in play). Some action cards are enhanced versions of the basic actions, while
 others are original types of actions.
 
@@ -885,7 +887,7 @@ otherwise noted on the card.
 ![](bin/media/image41.png)
 
 
-### **Bleed**
+#### **Bleed**
 
 *Performing a bleed action represents the efforts of your minion to
 undermine the power and pool of the target Methuselah. You might picture
@@ -917,7 +919,7 @@ more, then the bleed is successful and the acting Methuselah gets the Edge, (tak
 
 
 
-### **Hunt**
+#### **Hunt**
 
 *Hunting is a vampire's means of satisfying their hunger for blood.*
 
@@ -940,7 +942,7 @@ the blood bank equal to the hunt amount.
 ![](bin/media/image33.png)
 
 
-### **Politics**
+#### **Politics**
 *Politics and diplomacy are as critical to vampires as hunting and feeding. Like mortal society, Kindred society has its own laws, creeds,
 and customs.* 
 
@@ -970,13 +972,13 @@ fails
 
 
 
-### **Permanents** 
+#### **Permanents** 
 Ready minions can also use actions to bring different types of permanent
 resources into play. These three actions are very similar, although the
 cards they bring into play are not: **Equipment,** **Retainer** and **Allies**
 
 
-#### **Equip**
+##### **Equip**
 
 *Equipment utilizes such as computers, guns, and exotic artefacts. An equipment card is brought into play with an equip action.*
 
@@ -1020,7 +1022,7 @@ is.
 > version of the equipment.
 
 
-#### **Employ Retainer**
+##### **Employ Retainer**
 
 *Retainers are henchmen, attendants, or animals commanded into the service of the minion.*\
 \
@@ -1048,7 +1050,7 @@ acting minion.
 
 
 
-#### **Recruit Ally**
+##### **Recruit Ally**
 *Allies: non-vampire minions, such as mages, werewolves, or ordinary mortals.* \
 \
 An ally is brought into play with the recruit ally action. Allies are action cards that become minions in their own right, capable of acting and blocking independently of the minion that recruits them. Allies cannot act the turn they are recruited. 
@@ -1075,7 +1077,7 @@ ready region, but they cannot act this turn.
 
 
  
-### **Torpor**
+#### **Torpor**
 
 *When a vampire cannot mend their wounds, they enter into a deep sleep
 known as torpor. A vampire in torpor is particularly weak and vulnerable
@@ -1084,7 +1086,7 @@ by a vampire through the act of diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
 
 
-#### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
+##### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
 
 - **Who can leave torpor:** A vampire in torpor.
 - **Default Cost:** 2 blood.
@@ -1105,7 +1107,7 @@ vampire leaving torpor is no longer wounded.
 
 
 ![](bin/media/image40.png)
-#### **Rescue a Vampire from Torpor**
+##### **Rescue a Vampire from Torpor**
 
 - **Who can rescue a vampire from torpor:** Any ready vampire.
 - **Default Cost:** 2 blood, which can be paid by the acting vampire or
@@ -1133,7 +1135,7 @@ rescued from torpor is no longer wounded.
 
 
  
-### **Diablerie**
+#### **Diablerie**
 
 *By committing diablerie, the diablerist drains the victim of their
 blood and grows stronger, and may take whatever equipment the victim
@@ -1144,7 +1146,7 @@ kind. In practice, however, this brand of justice is not always meted
 out fairly, depending on the connections that the diablerist has. So sometimes, the risk may
 outweigh the reward.*
 
-#### **Diablerise a Vampire in Torpor**
+**Diablerise a Vampire in Torpor**
 
 - **Who can diablerise:** Any ready vampire.
 - **Default cost:** None.
