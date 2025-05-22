@@ -533,7 +533,7 @@ Optional cost reducers can be used when the card is played (in order to play the
 ### Restrictions for Playing Cards
 **Actions**
 Some actions cannot be repeated more than once per turn by the same minion, even if the unlock (unless cancelled).
-* A minion cannot perform more than **one bleed action** 
+* A minion cannot perform more than **one bleed action**. You are never allowed to bleed yourself. 
 * A vampire cannot perform more than **one political action** 
 * A minion cannot perform more than one action with the **same named action card from hand**
 * A minion cannot perform each action via the **same copy of a card in play** (including from the minion’s own card text) more than once each turn.
