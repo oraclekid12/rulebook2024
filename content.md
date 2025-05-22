@@ -537,7 +537,7 @@ Some actions cannot be repeated more than once per turn by the same minion, even
 * A vampire cannot perform more than **one political action** 
 * A minion cannot perform more than one action with the **same named action card from hand**
 * A minion cannot perform each action via the **same copy of a card in play** (including from the minion’s own card text) more than once each turn.
-* An ally can perform actions first in the turn after they are recruited.
+* An ally cannot perform actions first in the turn after they are recruited.
 * Your minions cannot enter combat with other minions you control.
 
 **Action modifier cards:**\
