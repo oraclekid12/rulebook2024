@@ -926,16 +926,18 @@ A hunt can be made with an action card or through the basic hunt action. If a su
 \
 Note that hunting is a **mandatory action** for a **vampire with no blood** who is ready and unlocked. 
 
-> By default, all vampires have a **hunt of 1**.\
-> During a hunt action, an action modifier card or other effects can be used to increase the hunt (**+ x hunt**).
-
+> By default, all vampires have a **hunt of 1**. Some cards may set a different hunt value.\ 
+> During a hunt action, an action modifier card or other effects can be used to increase the hunt (**+ x hunt**).\
 
 - **Who can hunt:** Any ready vampire. 
 - **Default cost:** None.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
 - **Effect:** The acting vampire gains an amount of blood counters from
-the blood bank equal to the hunt amount.
+the blood bank equal to the hunt amount. 
+
+> HUNT FROM OTHER SOURCES\
+> Some cards may alter the source from where the blood is gained from, e.g. to another vampire or card in play. In these cases, any changes to the hunt value apply to that source"
 
 
 ![](bin/media/image33.png)
