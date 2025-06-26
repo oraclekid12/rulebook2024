@@ -868,7 +868,7 @@ resolved before another action can be performed. (see [Detailed Course of an Act
 
 ### Available Actions
 
-####**Action Card (or Card in Play)**
+#### **Action Card (or Card in Play)**
 Actions can be provided by cards (either action cards or cards in play). Some action cards are enhanced versions of the basic actions, while
 others are original types of actions.
 
